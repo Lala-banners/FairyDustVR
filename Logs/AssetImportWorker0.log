@@ -15,11 +15,11 @@ E:/OneDrive - TAFE NSW/VR GITHUB/FairyDustVR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52650
+59648
 Successfully changed project path to: E:/OneDrive - TAFE NSW/VR GITHUB/FairyDustVR
 E:/OneDrive - TAFE NSW/VR GITHUB/FairyDustVR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 68.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,426 +36,361 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003316 seconds.
+Registered in 0.003469 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 86.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.414 seconds
+- Completed reload, in  3.397 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006482 seconds.
+Registered in 0.009503 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 73.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 63.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.295 seconds
+- Completed reload, in  1.497 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.5 MB.
-System memory in use after: 125.7 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3178.
-Total: 2.722600 ms (FindLiveObjects: 0.418000 ms CreateObjectMapping: 0.265400 ms MarkObjects: 1.962300 ms  DeleteObjects: 0.075800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/VR Framework/FairyDustVR/Scenes/Test/Crossfade.unity
-  artifactKey: Guid(c26be08224ab972488effffb9513e5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR/Scenes/Test/Crossfade.unity using Guid(c26be08224ab972488effffb9513e5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56003babb1775d3fa53fc69ffe6e3392') in 0.017750 seconds
-  Import took 0.022239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.762531 seconds.
-  path: Assets/VR Framework/FairyDustVR/Scenes/Test/TestRotate.unity
-  artifactKey: Guid(bfd7f7e6dd8b6174fa98701d330097df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR/Scenes/Test/TestRotate.unity using Guid(bfd7f7e6dd8b6174fa98701d330097df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108f0ef3fa7025a6e12ffcbfabbb007e') in 0.006143 seconds
-  Import took 0.010845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.364231 seconds.
-  path: Assets/VR Framework/FairyDustVR
-  artifactKey: Guid(d2257ed9d33e1ae4bbfb09a54dc71ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR using Guid(d2257ed9d33e1ae4bbfb09a54dc71ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fba9d47fdb7ddb171638989805b5047') in 0.006894 seconds
-  Import took 0.011403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001086 seconds.
-  path: Assets/VR Framework/FairyDustVR
-  artifactKey: Guid(d2257ed9d33e1ae4bbfb09a54dc71ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR using Guid(d2257ed9d33e1ae4bbfb09a54dc71ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fba9d47fdb7ddb171638989805b5047') in 0.005703 seconds
-  Import took 0.011290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.357557 seconds.
-  path: Assets/VR Framework/FairyDustVR/Scripts
-  artifactKey: Guid(f1fbb502146e09549ae5ed8cf3a1be39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR/Scripts using Guid(f1fbb502146e09549ae5ed8cf3a1be39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a053145511e8c2089bd872b394231060') in 0.005487 seconds
-  Import took 0.009847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.686439 seconds.
-  path: Assets/VR Framework/FairyDustVR/Scripts/Wisp.cs
-  artifactKey: Guid(a8b7e318fbf859d4e80dbc3661ee7dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR/Scripts/Wisp.cs using Guid(a8b7e318fbf859d4e80dbc3661ee7dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ee711be3292f8715a0a8299b06ce72') in 0.044397 seconds
-  Import took 0.050653 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006860 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.333 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.8 MB.
-System memory in use after: 119.1 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3182.
-Total: 2.934200 ms (FindLiveObjects: 0.383900 ms CreateObjectMapping: 0.155000 ms MarkObjects: 2.370700 ms  DeleteObjects: 0.023500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004705 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.984 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.9 MB.
-System memory in use after: 120.1 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3185.
-Total: 1.936200 ms (FindLiveObjects: 0.232100 ms CreateObjectMapping: 0.109500 ms MarkObjects: 1.576000 ms  DeleteObjects: 0.017100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004699 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.8 MB.
-System memory in use after: 120.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3188.
-Total: 2.283200 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.121400 ms MarkObjects: 1.901200 ms  DeleteObjects: 0.018900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004743 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.988 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.6 MB.
-System memory in use after: 119.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3191.
-Total: 2.689800 ms (FindLiveObjects: 0.363600 ms CreateObjectMapping: 0.153100 ms MarkObjects: 2.156800 ms  DeleteObjects: 0.015300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004597 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.987 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.9 MB.
-System memory in use after: 120.2 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3194.
-Total: 2.625000 ms (FindLiveObjects: 0.352100 ms CreateObjectMapping: 0.167200 ms MarkObjects: 2.084200 ms  DeleteObjects: 0.020300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004664 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.995 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.7 MB.
-System memory in use after: 119.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3197.
-Total: 2.381900 ms (FindLiveObjects: 0.377200 ms CreateObjectMapping: 0.160400 ms MarkObjects: 1.825000 ms  DeleteObjects: 0.018400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004709 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.8 MB.
-System memory in use after: 120.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3200.
-Total: 2.798500 ms (FindLiveObjects: 0.364600 ms CreateObjectMapping: 0.205000 ms MarkObjects: 2.200700 ms  DeleteObjects: 0.026900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004988 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.000 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.7 MB.
-System memory in use after: 119.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3203.
-Total: 3.582200 ms (FindLiveObjects: 0.368400 ms CreateObjectMapping: 0.139000 ms MarkObjects: 3.052300 ms  DeleteObjects: 0.021200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004734 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.0 MB.
-System memory in use after: 120.2 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3206.
-Total: 2.190800 ms (FindLiveObjects: 0.242500 ms CreateObjectMapping: 0.135700 ms MarkObjects: 1.793800 ms  DeleteObjects: 0.017700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005196 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.172 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.0 MB.
-System memory in use after: 120.2 MB.
+Unloading 2731 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.7 MB.
+System memory in use after: 125.9 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3209.
-Total: 3.324700 ms (FindLiveObjects: 0.482700 ms CreateObjectMapping: 0.279400 ms MarkObjects: 2.538900 ms  DeleteObjects: 0.021500 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3179.
+Total: 2.855000 ms (FindLiveObjects: 0.475700 ms CreateObjectMapping: 0.228100 ms MarkObjects: 2.074700 ms  DeleteObjects: 0.075300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/VR Framework/FairyDustVR/Magical Music Album - 040618/mp3 - 320kbps/1. Strange Door.mp3
+  artifactKey: Guid(2bd8bfc44a8988446a38b585e8ea81d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Magical Music Album - 040618/mp3 - 320kbps/1. Strange Door.mp3 using Guid(2bd8bfc44a8988446a38b585e8ea81d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6e17ec43053814b2bf48c2d2fc0576') in 0.409747 seconds
+  Import took 0.416737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/VR Framework/FairyDustVR/Magical Music Album - 040618/mp3 - 320kbps/4. Tiny Fairy.mp3
+  artifactKey: Guid(dc606cd6c744e9449b0b49b2f82071be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Magical Music Album - 040618/mp3 - 320kbps/4. Tiny Fairy.mp3 using Guid(dc606cd6c744e9449b0b49b2f82071be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7f15271b9dd5b93ddbca874403f206') in 0.158959 seconds
+  Import took 0.165932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/VR Framework/FairyDustVR/Magical Music Album - 040618/mp3 - 320kbps/3. Fantasy Dream.mp3
+  artifactKey: Guid(54522ef90c25bc24fb9056cb678b3b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Magical Music Album - 040618/mp3 - 320kbps/3. Fantasy Dream.mp3 using Guid(54522ef90c25bc24fb9056cb678b3b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0853d2b3e120a09e4c1b0e0d4133fa') in 0.337345 seconds
+  Import took 0.342463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/VR Framework/FairyDustVR/Magical Music Album - 040618/mp3 - 320kbps/9. Memories Ballet.mp3
+  artifactKey: Guid(ab2f6fe06f091594992bb8cb29df5957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Magical Music Album - 040618/mp3 - 320kbps/9. Memories Ballet.mp3 using Guid(ab2f6fe06f091594992bb8cb29df5957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14055f4aee586fea261b35fe7b435315') in 0.272178 seconds
+  Import took 0.280219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/VR Framework/FairyDustVR/Magical Music Album - 040618/mp3 - 320kbps
+  artifactKey: Guid(308454b91a5f68d4d85ba4e715cd1edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Magical Music Album - 040618/mp3 - 320kbps using Guid(308454b91a5f68d4d85ba4e715cd1edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055a65575f1160c2fb6a9a570ccde322') in 0.177614 seconds
+  Import took 0.190534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.739000 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scenes/StartScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scenes/StartScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78390e88011a96ab30530dd319759a3') in 0.195937 seconds
+  Import took 0.201394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.889743 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Sounds/MasterLongbowMix.mixer
+  artifactKey: Guid(95096f29d1ddcd647ace66f3641d42f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Sounds/MasterLongbowMix.mixer using Guid(95096f29d1ddcd647ace66f3641d42f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1cc2b4cd0c39c1d118fece5df3bff3') in 0.138739 seconds
+  Import took 0.145708 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006006 seconds.
+Registered in 0.006565 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
+- Completed reload, in  1.628 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.8 MB.
-System memory in use after: 121.0 MB.
+System memory in use before: 121.7 MB.
+System memory in use after: 121.9 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3212.
-Total: 4.651700 ms (FindLiveObjects: 0.485200 ms CreateObjectMapping: 0.195100 ms MarkObjects: 3.942500 ms  DeleteObjects: 0.026700 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3191.
+Total: 3.829400 ms (FindLiveObjects: 0.447100 ms CreateObjectMapping: 0.219600 ms MarkObjects: 3.133300 ms  DeleteObjects: 0.027600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.441806 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Sounds/Default.mixer
+  artifactKey: Guid(ec12f7772c03e4c4c9e4c2f1643595ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Sounds/Default.mixer using Guid(ec12f7772c03e4c4c9e4c2f1643595ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef85d7488a523b67ab8e46d8cbc14f6') in 0.175392 seconds
+  Import took 0.180455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.767863 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Sounds/MasterLongbowMix.mixer
+  artifactKey: Guid(95096f29d1ddcd647ace66f3641d42f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Sounds/MasterLongbowMix.mixer using Guid(95096f29d1ddcd647ace66f3641d42f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb02296d5b619f2226fa8f2b84aee92') in 0.272144 seconds
+  Import took 0.277827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.240636 seconds.
+  path: Assets/AudioOutput.mixer
+  artifactKey: Guid(be5e1adced70b1a468fb582598f03097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AudioOutput.mixer using Guid(be5e1adced70b1a468fb582598f03097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a4fa08ea220ea4c9a5bede7658f7bc') in 0.142431 seconds
+  Import took 0.148131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.987076 seconds.
+  path: Assets/AudioOutput.mixer
+  artifactKey: Guid(be5e1adced70b1a468fb582598f03097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AudioOutput.mixer using Guid(be5e1adced70b1a468fb582598f03097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a7bf137460daad8e0a5c9d675d7c68') in 0.185282 seconds
+  Import took 0.191043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.125401 seconds.
+  path: Assets/AudioOutput.mixer
+  artifactKey: Guid(be5e1adced70b1a468fb582598f03097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AudioOutput.mixer using Guid(be5e1adced70b1a468fb582598f03097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0a2c8726d1ca26d32a10b1ca10b9e6') in 0.135675 seconds
+  Import took 0.141729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.125513 seconds.
+  path: Assets/AudioOutput.mixer
+  artifactKey: Guid(be5e1adced70b1a468fb582598f03097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AudioOutput.mixer using Guid(be5e1adced70b1a468fb582598f03097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742ba9e0d289835ddb72f96f0b46aa8f') in 0.123879 seconds
+  Import took 0.128919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.106317 seconds.
+  path: Assets/AudioOutput.mixer
+  artifactKey: Guid(be5e1adced70b1a468fb582598f03097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AudioOutput.mixer using Guid(be5e1adced70b1a468fb582598f03097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1dabf7953d1f91b7d57800de634c51e') in 0.099498 seconds
+  Import took 0.104918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.458935 seconds.
+  path: Assets/AudioOutput.mixer
+  artifactKey: Guid(be5e1adced70b1a468fb582598f03097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AudioOutput.mixer using Guid(be5e1adced70b1a468fb582598f03097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd8e7babfd36a5af5e5c18c302e454c') in 0.213987 seconds
+  Import took 0.218905 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004722 seconds.
+Registered in 0.007328 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
+- Completed reload, in  1.382 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.8 MB.
-System memory in use after: 120.0 MB.
+System memory in use before: 123.0 MB.
+System memory in use after: 123.2 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3215.
-Total: 2.203500 ms (FindLiveObjects: 0.262100 ms CreateObjectMapping: 0.132200 ms MarkObjects: 1.792300 ms  DeleteObjects: 0.015200 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3194.
+Total: 3.855600 ms (FindLiveObjects: 0.559100 ms CreateObjectMapping: 0.318400 ms MarkObjects: 2.941200 ms  DeleteObjects: 0.034400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005385 seconds.
+Registered in 0.005586 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  1.536 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.1 MB.
-System memory in use after: 120.3 MB.
+System memory in use before: 123.1 MB.
+System memory in use after: 123.4 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3218.
-Total: 2.339500 ms (FindLiveObjects: 0.217900 ms CreateObjectMapping: 0.090100 ms MarkObjects: 2.013200 ms  DeleteObjects: 0.017400 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3197.
+Total: 4.123600 ms (FindLiveObjects: 0.454500 ms CreateObjectMapping: 0.282300 ms MarkObjects: 3.351900 ms  DeleteObjects: 0.032900 ms)
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005007 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.0 MB.
-System memory in use after: 120.2 MB.
+Received Import Request.
+  Time since last request: 224.023992 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX
+  artifactKey: Guid(3e061a444a854b4429e8282387c7528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX using Guid(3e061a444a854b4429e8282387c7528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95022a17f4b574e35ef4e02c222d01d') in 0.288400 seconds
+  Import took 0.294296 seconds .
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3221.
-Total: 3.312700 ms (FindLiveObjects: 0.340500 ms CreateObjectMapping: 0.170400 ms MarkObjects: 2.775100 ms  DeleteObjects: 0.025100 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 2.103570 seconds.
+  path: Assets/VR Framework/FairyDustVR/Magical Music Album - 040618
+  artifactKey: Guid(385e81e20bbbdb34c963bd4feeb4ce93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Magical Music Album - 040618 using Guid(385e81e20bbbdb34c963bd4feeb4ce93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950dfc1bd011950b5d2079642783e7f2') in 0.212003 seconds
+  Import took 0.218344 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 14.638032 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX
+  artifactKey: Guid(77caecb66e811394ea86b3738dfcfc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX using Guid(77caecb66e811394ea86b3738dfcfc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6fadec6f148057c76c5ae6a80fcbc9') in 0.167829 seconds
+  Import took 0.173350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Cancel_03.wav
+  artifactKey: Guid(b190a8a5f59499f4f9204e64b9a04da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Cancel_03.wav using Guid(b190a8a5f59499f4f9204e64b9a04da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19b7a3a3a6f8df9f37114e42a9c4916') in 0.205489 seconds
+  Import took 0.210785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_move_03.wav
+  artifactKey: Guid(76900dfe0d15dc34fb621e6ab0cf8466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_move_03.wav using Guid(76900dfe0d15dc34fb621e6ab0cf8466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c9317d4eef16edcd1d3837d91756b3') in 0.170265 seconds
+  Import took 0.184675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Cancel_01.wav
+  artifactKey: Guid(7e58c1718e011c847949792efd486a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Cancel_01.wav using Guid(7e58c1718e011c847949792efd486a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0dc9c2186374b516f590108757c0d3') in 0.252154 seconds
+  Import took 0.259037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Cancel_02.wav
+  artifactKey: Guid(805b9257f76a9ce47b16409048985f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Cancel_02.wav using Guid(805b9257f76a9ce47b16409048985f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daaaa3b60f2f3995490f1c61ee90641') in 0.281778 seconds
+  Import took 0.288291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Confirm_01.wav
+  artifactKey: Guid(dca3084cb66e8824bab682c584bec504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Confirm_01.wav using Guid(dca3084cb66e8824bab682c584bec504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537695850b2b00e7daf5f584970c82ca') in 0.260728 seconds
+  Import took 0.265991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_move_04.wav
+  artifactKey: Guid(1ec6cd559c1d904419231944ab50afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_move_04.wav using Guid(1ec6cd559c1d904419231944ab50afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a92dd6b305abaa21c00b397e2cafc1b') in 0.194507 seconds
+  Import took 0.199367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Confirm_03.wav
+  artifactKey: Guid(311ed1f1bf2aa1847b8f10462f75982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Confirm_03.wav using Guid(311ed1f1bf2aa1847b8f10462f75982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e48173fa19c9da8eea253aa48bcb97') in 0.150338 seconds
+  Import took 0.155255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Confirm_02.wav
+  artifactKey: Guid(d4007067d30a702478f8de23ab74795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Confirm_02.wav using Guid(d4007067d30a702478f8de23ab74795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac8e8638dc9cd55e0aff3cebd20cf77') in 0.161240 seconds
+  Import took 0.184231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Twinkle_01.wav
+  artifactKey: Guid(616cf7f5cffb52e4caa0df9070ee4067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Twinkle_01.wav using Guid(616cf7f5cffb52e4caa0df9070ee4067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2455de18ed59e52e09773bd1e0fb778f') in 0.221192 seconds
+  Import took 0.226105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Twinkle_02.wav
+  artifactKey: Guid(563884892133af446bdb373e00a7a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Twinkle_02.wav using Guid(563884892133af446bdb373e00a7a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a72139527a091bf374f0e12fd1617d') in 0.238523 seconds
+  Import took 0.243693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Cancel_04.wav
+  artifactKey: Guid(bbae85860e1880b4c8b056d33a4716eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_Cancel_04.wav using Guid(bbae85860e1880b4c8b056d33a4716eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5fc1b027faed3755530aeb6c0a62f1') in 0.194870 seconds
+  Import took 0.200206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_move_01.wav
+  artifactKey: Guid(795c4ea2ea1ffc54982c652644a64520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_move_01.wav using Guid(795c4ea2ea1ffc54982c652644a64520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c6b75a4956d459e71ba28b4c2d2c00') in 0.149659 seconds
+  Import took 0.155568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_move_02.wav
+  artifactKey: Guid(ae46e87a1569d1b45bad01b7cc1de3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Music_SFX/Fantasy Menu SFX/RPG_Menu_move_02.wav using Guid(ae46e87a1569d1b45bad01b7cc1de3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbc83d13bf038f1e24d5b6adf0756e2') in 0.160579 seconds
+  Import took 0.165328 seconds .
+
