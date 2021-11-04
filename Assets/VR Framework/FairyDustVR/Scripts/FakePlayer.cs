@@ -38,5 +38,10 @@ public class FakePlayer : MonoBehaviour
         {
             flames[2].gameObject.SetActive(true);
         }
+        
+        if (other.gameObject.name == "Night Change Point")
+        {
+            print("Crossed the fairies, change to night time, change trees");
+        }
     }
 }
