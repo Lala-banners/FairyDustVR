@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class FakePlayer : MonoBehaviour
 {
-    private float speed = 2f;
     private int colliderIndex;
     [SerializeField] private GameObject[] flames;
 
@@ -12,12 +11,6 @@ public class FakePlayer : MonoBehaviour
         flames[0].gameObject.SetActive(false);
         flames[1].gameObject.SetActive(false);
         flames[2].gameObject.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 
     private void OnTriggerEnter(Collider other)
