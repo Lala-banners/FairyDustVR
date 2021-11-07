@@ -1,147 +1,150 @@
 {
-  "app_key": "application.generated.unity.interactionframework.exe",
-  "bindings": {
-    "/actions/buggy": {
-      "chords": [],
-      "poses": [],
-      "haptics": [],
-      "sources": [],
-      "skeleton": []
-    },
-    "/actions/default": {
-      "chords": [],
-      "poses": [],
-      "haptics": [],
-      "sources": [],
-      "skeleton": []
-    },
-    "/actions/interaction_framework": {
-      "chords": [],
-      "poses": [
-        {
-          "output": "/actions/interaction_framework/in/pose",
-          "path": "/user/hand/left/pose/raw"
-        },
-        {
-          "output": "/actions/interaction_framework/in/pose",
-          "path": "/user/hand/right/pose/raw"
-        }
-      ],
-      "haptics": [
-        {
-          "output": "/actions/interaction_framework/out/haptic",
-          "path": "/user/hand/left/output/haptic"
-        },
-        {
-          "output": "/actions/interaction_framework/out/haptic",
-          "path": "/user/hand/right/output/haptic"
-        }
-      ],
-      "sources": [
-        {
-          "path": "/user/hand/left/input/joystick",
-          "mode": "joystick",
-          "parameters": {},
-          "inputs": {
-            "click": {
-              "output": "/actions/interaction_framework/in/teleport"
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "app_key" : "application.generated.unity.fdvr.exe",
+   "bindings" : {
+      "/actions/buggy" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : []
+      },
+      "/actions/default" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : []
+      },
+      "/actions/interaction_framework" : {
+         "chords" : [],
+         "haptics" : [
+            {
+               "output" : "/actions/interaction_framework/out/haptic",
+               "path" : "/user/hand/left/output/haptic"
             },
-            "position": {
-              "output": "/actions/interaction_framework/in/touchpadpos"
+            {
+               "output" : "/actions/interaction_framework/out/haptic",
+               "path" : "/user/hand/right/output/haptic"
             }
-          }
-        },
-        {
-          "path": "/user/hand/right/input/joystick",
-          "mode": "joystick",
-          "parameters": {},
-          "inputs": {
-            "click": {
-              "output": "/actions/interaction_framework/in/teleport"
+         ],
+         "poses" : [
+            {
+               "output" : "/actions/interaction_framework/in/pose",
+               "path" : "/user/hand/left/pose/raw"
             },
-            "position": {
-              "output": "/actions/interaction_framework/in/touchpadpos"
+            {
+               "output" : "/actions/interaction_framework/in/pose",
+               "path" : "/user/hand/right/pose/raw"
             }
-          }
-        },
-        {
-          "path": "/user/hand/left/input/trigger",
-          "mode": "trigger",
-          "parameters": {},
-          "inputs": {
-            "click": {
-              "output": "/actions/interaction_framework/in/interactui"
+         ],
+         "skeleton" : [],
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/interaction_framework/in/teleport"
+                  },
+                  "position" : {
+                     "output" : "/actions/interaction_framework/in/touchpadpos"
+                  },
+                  "touch" : {
+                     "output" : "/actions/interaction_framework/in/laserpointer"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/left/input/joystick"
             },
-            "pull": {
-              "output": "/actions/interaction_framework/in/squeeze"
-            }
-          }
-        },
-        {
-          "path": "/user/hand/right/input/trigger",
-          "mode": "trigger",
-          "parameters": {},
-          "inputs": {
-            "click": {
-              "output": "/actions/interaction_framework/in/interactui"
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/interaction_framework/in/teleport"
+                  },
+                  "position" : {
+                     "output" : "/actions/interaction_framework/in/touchpadpos"
+                  },
+                  "touch" : {
+                     "output" : "/actions/interaction_framework/in/laserpointer"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/right/input/joystick"
             },
-            "pull": {
-              "output": "/actions/interaction_framework/in/squeeze"
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/interaction_framework/in/interactui"
+                  },
+                  "pull" : {
+                     "output" : "/actions/interaction_framework/in/squeeze"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/interaction_framework/in/interactui"
+                  },
+                  "pull" : {
+                     "output" : "/actions/interaction_framework/in/squeeze"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/interaction_framework/in/use"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/interaction_framework/in/use"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/interaction_framework/in/grab"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/interaction_framework/in/grab"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/grip"
             }
-          }
-        },
-        {
-          "path": "/user/hand/left/input/trigger",
-          "mode": "button",
-          "parameters": {},
-          "inputs": {
-            "click": {
-              "output": "/actions/interaction_framework/in/use"
-            }
-          }
-        },
-        {
-          "path": "/user/hand/right/input/trigger",
-          "mode": "button",
-          "parameters": {},
-          "inputs": {
-            "click": {
-              "output": "/actions/interaction_framework/in/use"
-            }
-          }
-        },
-        {
-          "path": "/user/hand/left/input/grip",
-          "mode": "button",
-          "parameters": {},
-          "inputs": {
-            "click": {
-              "output": "/actions/interaction_framework/in/grab"
-            }
-          }
-        },
-        {
-          "path": "/user/hand/right/input/grip",
-          "mode": "button",
-          "parameters": {},
-          "inputs": {
-            "click": {
-              "output": "/actions/interaction_framework/in/grab"
-            }
-          }
-        }
-      ],
-      "skeleton": []
-    },
-    "/actions/platformer": {
-      "chords": [],
-      "poses": [],
-      "haptics": [],
-      "sources": [],
-      "skeleton": []
-    }
-  },
-  "controller_type": "oculus_touch",
-  "description": "",
-  "name": "Saved Interaction Framework [Testing] configuration for Oculus Touch"
+         ]
+      },
+      "/actions/platformer" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : []
+      }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "oculus_touch",
+   "description" : "",
+   "name" : "Saved [Testing] FDVR configuration for Oculus Touch",
+   "options" : {},
+   "simulated_actions" : []
 }

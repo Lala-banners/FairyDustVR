@@ -15,11 +15,11 @@ E:/OneDrive - TAFE NSW/VR GITHUB/FairyDustVR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53490
+53099
 Successfully changed project path to: E:/OneDrive - TAFE NSW/VR GITHUB/FairyDustVR
 E:/OneDrive - TAFE NSW/VR GITHUB/FairyDustVR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 132.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,290 +36,561 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001892 seconds.
+Registered in 0.001657 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 150.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.768 seconds
+- Completed reload, in  2.359 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006090 seconds.
+Registered in 0.004004 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 119.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.106 seconds
+- Completed reload, in  1.520 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 130.9 MB.
+Unloading 2738 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.1 MB.
+System memory in use after: 132.3 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3198.
-Total: 3.232700 ms (FindLiveObjects: 0.327800 ms CreateObjectMapping: 0.177000 ms MarkObjects: 2.572900 ms  DeleteObjects: 0.153300 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3199.
+Total: 2.715400 ms (FindLiveObjects: 0.284800 ms CreateObjectMapping: 0.237600 ms MarkObjects: 2.062600 ms  DeleteObjects: 0.128500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/VR Framework/FairyDustVR/Scenes/FairyCircle.unity
-  artifactKey: Guid(09055e12359a61b489067b9a929b62e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR/Scenes/FairyCircle.unity using Guid(09055e12359a61b489067b9a929b62e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48938984b7b1b238964df89e147eff63') in 0.025749 seconds
-  Import took 0.038019 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003808 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.502 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2606 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.4 MB.
-System memory in use after: 124.7 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3201.
-Total: 2.986100 ms (FindLiveObjects: 0.339600 ms CreateObjectMapping: 0.188500 ms MarkObjects: 2.434800 ms  DeleteObjects: 0.021200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004785 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.469 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2606 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.6 MB.
-System memory in use after: 124.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3204.
-Total: 3.173000 ms (FindLiveObjects: 0.601400 ms CreateObjectMapping: 0.305400 ms MarkObjects: 2.243800 ms  DeleteObjects: 0.020800 ms)
+  path: Assets/Footstep(Snow and Grass)/StepsLoop/grass
+  artifactKey: Guid(8003f43a5be4ac54fa082568b58b0ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/StepsLoop/grass using Guid(8003f43a5be4ac54fa082568b58b0ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6793a89f9736198f5e789c123966a79') in 0.121165 seconds
+  Import took 0.125909 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 638.904526 seconds.
-  path: Assets/VR Framework/FairyDustVR/Scripts/LoadScene.cs
-  artifactKey: Guid(67fd6e8d121673947b73264ffda6d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR/Scripts/LoadScene.cs using Guid(67fd6e8d121673947b73264ffda6d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9766f6fb50f9c2dcbce56001dbec8fec') in 0.042315 seconds
-  Import took 0.049453 seconds .
+  Time since last request: 0.000576 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 4-Audio.wav
+  artifactKey: Guid(4901040e735fd2547870b06a27124c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 4-Audio.wav using Guid(4901040e735fd2547870b06a27124c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bc63131a12da4f0027a2472c8bdeaa') in 0.178891 seconds
+  Import took 0.183786 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001462 seconds.
-  path: Assets/VR Framework/FairyDustVR/Scripts/LoadScene.cs
-  artifactKey: Guid(67fd6e8d121673947b73264ffda6d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR/Scripts/LoadScene.cs using Guid(67fd6e8d121673947b73264ffda6d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9766f6fb50f9c2dcbce56001dbec8fec') in 0.006494 seconds
-  Import took 0.013689 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005874 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.376 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2607 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3208.
-Total: 2.925000 ms (FindLiveObjects: 0.507600 ms CreateObjectMapping: 0.267300 ms MarkObjects: 2.127000 ms  DeleteObjects: 0.021900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003939 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2607 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.8 MB.
-System memory in use after: 125.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3211.
-Total: 5.095400 ms (FindLiveObjects: 0.783100 ms CreateObjectMapping: 0.436600 ms MarkObjects: 3.842400 ms  DeleteObjects: 0.031200 ms)
+  Time since last request: 0.000253 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 2-Audio.wav
+  artifactKey: Guid(59cd085e234f32e4daddd2e589174a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 2-Audio.wav using Guid(59cd085e234f32e4daddd2e589174a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f3944c88ce513cd6eaf916d87643c0') in 0.018007 seconds
+  Import took 0.022965 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 223.074957 seconds.
-  path: Assets/VR Framework/FairyDustVR/Scripts/LoadScene.cs
-  artifactKey: Guid(67fd6e8d121673947b73264ffda6d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR/Scripts/LoadScene.cs using Guid(67fd6e8d121673947b73264ffda6d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55153b7fe3c85a116916cee0c5a10df') in 0.010829 seconds
-  Import took 0.019140 seconds .
+  Time since last request: 0.000201 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 14-Audio.wav
+  artifactKey: Guid(dc51086bc85dc5448b059b6487ce0e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 14-Audio.wav using Guid(dc51086bc85dc5448b059b6487ce0e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9178ccc0fd547521e208b196b3ed9163') in 0.017486 seconds
+  Import took 0.021868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 17-Audio.wav
+  artifactKey: Guid(a829296e83128554cba9da342d83d361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 17-Audio.wav using Guid(a829296e83128554cba9da342d83d361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cab7e708a9fcd8b86e4e8d9353d710') in 0.020245 seconds
+  Import took 0.025280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 5-Audio.wav
+  artifactKey: Guid(4dcd8f2dc477f5e4aa277ee503048ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 5-Audio.wav using Guid(4dcd8f2dc477f5e4aa277ee503048ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47c14d265b9fcd1ab76ac6e79845ef1') in 0.019151 seconds
+  Import took 0.024089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 13-Audio.wav
+  artifactKey: Guid(7e30146df5f9bb84d9d63ed8211311b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 13-Audio.wav using Guid(7e30146df5f9bb84d9d63ed8211311b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea188d663b170160d5eb06f8b1900379') in 0.018195 seconds
+  Import took 0.023182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 6-Audio.wav
+  artifactKey: Guid(15b220b1b01e9d8469f3b754b8eb2a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 6-Audio.wav using Guid(15b220b1b01e9d8469f3b754b8eb2a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d336bc802345e7a77c5aab75c4eff75') in 0.019654 seconds
+  Import took 0.024899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 19-Audio.wav
+  artifactKey: Guid(5d8455fb534849442ad490965ff71279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 19-Audio.wav using Guid(5d8455fb534849442ad490965ff71279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b9a4a7314649d19484afe3686e88a6') in 0.019532 seconds
+  Import took 0.026231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 15-Audio.wav
+  artifactKey: Guid(bf247942e61355f4d9d1804c09c647ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 15-Audio.wav using Guid(bf247942e61355f4d9d1804c09c647ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759109c2f08e2b52b1793411c5187db9') in 0.032020 seconds
+  Import took 0.037550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 18-Audio.wav
+  artifactKey: Guid(5a7bf85c9d703074db7e82ff2ce16e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 18-Audio.wav using Guid(5a7bf85c9d703074db7e82ff2ce16e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf42edaa74147fd2cd9e1b9c52b04d4') in 0.020507 seconds
+  Import took 0.025586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 22-Audio.wav
+  artifactKey: Guid(3a9cd2eed86bb634c9da9b5864798f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 22-Audio.wav using Guid(3a9cd2eed86bb634c9da9b5864798f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3951b3ea10965e65d7d5678fb619f60b') in 0.019092 seconds
+  Import took 0.025912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 16-Audio.wav
+  artifactKey: Guid(50d72a013f13ce0488147b799a838890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 16-Audio.wav using Guid(50d72a013f13ce0488147b799a838890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19af37f35bba3ba296ce0e727d21709a') in 0.024371 seconds
+  Import took 0.029839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 3-Audio.wav
+  artifactKey: Guid(2f96d3d47551ed848be9307342dcd667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 3-Audio.wav using Guid(2f96d3d47551ed848be9307342dcd667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3607858d80583df7c51018645ec07a39') in 0.019390 seconds
+  Import took 0.023944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 7-Audio.wav
+  artifactKey: Guid(79a7606463e6a0748b531715f315489d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 7-Audio.wav using Guid(79a7606463e6a0748b531715f315489d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd345fda12324870adba72a82aa692987') in 0.018903 seconds
+  Import took 0.024860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 10-Audio.wav
+  artifactKey: Guid(e85ebefcaa228bc42adb2554e5a428d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 10-Audio.wav using Guid(e85ebefcaa228bc42adb2554e5a428d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4fa7ce5540dd4e1f10eb92c3513568') in 0.019018 seconds
+  Import took 0.023915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 12-Audio.wav
+  artifactKey: Guid(bd2e21727b290c94586e70231e309cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 12-Audio.wav using Guid(bd2e21727b290c94586e70231e309cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e0fee06bc806a8e5e487f7c8b7783d') in 0.018616 seconds
+  Import took 0.023649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 8-Audio.wav
+  artifactKey: Guid(aa859614ff9b2234e8547d93e1cd9e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 8-Audio.wav using Guid(aa859614ff9b2234e8547d93e1cd9e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553f6664abe9ccdd34f9d48c328d7190') in 0.022430 seconds
+  Import took 0.029966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 11-Audio.wav
+  artifactKey: Guid(363fb6bde7237674c9ab1b4ea4db05a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 11-Audio.wav using Guid(363fb6bde7237674c9ab1b4ea4db05a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053da2df5d53c94a70e3928886491117') in 0.019682 seconds
+  Import took 0.028958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 1-Audio.wav
+  artifactKey: Guid(18f1ff003e8fbdb44aba8266f6e1d168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 1-Audio.wav using Guid(18f1ff003e8fbdb44aba8266f6e1d168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2f20ea9f385685cc60070053ef7323') in 0.037620 seconds
+  Import took 0.048794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 21-Audio.wav
+  artifactKey: Guid(c88f941f0652e8048be78e94b6879648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 21-Audio.wav using Guid(c88f941f0652e8048be78e94b6879648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741d475d72c52364a08f681104c2aefd') in 0.027277 seconds
+  Import took 0.038362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 9-Audio.wav
+  artifactKey: Guid(7a1ca87fc8b38af43bd269e557438cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 9-Audio.wav using Guid(7a1ca87fc8b38af43bd269e557438cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c91f683ef15e311e0dd8894a31591c9') in 0.023344 seconds
+  Import took 0.033652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 20-Audio.wav
+  artifactKey: Guid(f4eb0a209807fbb40bd0759085f6f882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 20-Audio.wav using Guid(f4eb0a209807fbb40bd0759085f6f882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345715c19adc1df102e179055cdf4177') in 0.030680 seconds
+  Import took 0.041388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.469005 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/Footsteps.cs
+  artifactKey: Guid(06be818e9af91f047816ce234abc5522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/Footsteps.cs using Guid(06be818e9af91f047816ce234abc5522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c686238cc22a90e28aefedce2e7eeb08') in 0.014518 seconds
+  Import took 0.020504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006409 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/Footsteps.cs
+  artifactKey: Guid(06be818e9af91f047816ce234abc5522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/Footsteps.cs using Guid(06be818e9af91f047816ce234abc5522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c686238cc22a90e28aefedce2e7eeb08') in 0.005812 seconds
+  Import took 0.012245 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006275 seconds.
+Registered in 0.008534 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.218 seconds
+- Completed reload, in  2.876 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2607 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.8 MB.
-System memory in use after: 125.0 MB.
+Unloading 2608 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 129.3 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3214.
-Total: 2.585600 ms (FindLiveObjects: 0.368500 ms CreateObjectMapping: 0.167700 ms MarkObjects: 2.029300 ms  DeleteObjects: 0.018900 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3212.
+Total: 41.942300 ms (FindLiveObjects: 18.350000 ms CreateObjectMapping: 0.905600 ms MarkObjects: 22.643500 ms  DeleteObjects: 0.040600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 591.451825 seconds.
+  path: Assets/VR Framework/Scripts/Locomotion
+  artifactKey: Guid(6efc760e744d98b4fb1ce24a9f54660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/Scripts/Locomotion using Guid(6efc760e744d98b4fb1ce24a9f54660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebb1c8158fe6aaf0ed1caf328061114') in 0.017545 seconds
+  Import took 0.027223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.931138 seconds.
+  path: Assets/VR Framework/Scripts/Locomotion/NavMeshData.cs
+  artifactKey: Guid(903bef46a0f0cda4f9909e7ef2c87cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/Scripts/Locomotion/NavMeshData.cs using Guid(903bef46a0f0cda4f9909e7ef2c87cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7fe8ae2451794eaf0ddcb1c273bcab') in 0.011424 seconds
+  Import took 0.019733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.719520 seconds.
+  path: Assets/VR Framework/Scripts/Locomotion/Teleporter.cs
+  artifactKey: Guid(2e6c0af8b3bf1af42b305a6adbca3280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/Scripts/Locomotion/Teleporter.cs using Guid(2e6c0af8b3bf1af42b305a6adbca3280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227cd1175b533774adaa5a2dfd70bfb9') in 0.010865 seconds
+  Import took 0.019085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001155 seconds.
+  path: Assets/VR Framework/Scripts/Locomotion/Teleporter.cs
+  artifactKey: Guid(2e6c0af8b3bf1af42b305a6adbca3280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/Scripts/Locomotion/Teleporter.cs using Guid(2e6c0af8b3bf1af42b305a6adbca3280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227cd1175b533774adaa5a2dfd70bfb9') in 0.004972 seconds
+  Import took 0.013149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.569914 seconds.
+  path: Assets/VR Framework/Scripts/Pointers/PointerRenderer.cs
+  artifactKey: Guid(1d6e9cf2bed8d6a4798d6b6f55dfc41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/Scripts/Pointers/PointerRenderer.cs using Guid(1d6e9cf2bed8d6a4798d6b6f55dfc41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9da9a77f1cafd970b8d19a84feac2da') in 0.012000 seconds
+  Import took 0.020269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004668 seconds.
+  path: Assets/VR Framework/Scripts/Pointers/PointerRenderer.cs
+  artifactKey: Guid(1d6e9cf2bed8d6a4798d6b6f55dfc41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/Scripts/Pointers/PointerRenderer.cs using Guid(1d6e9cf2bed8d6a4798d6b6f55dfc41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9da9a77f1cafd970b8d19a84feac2da') in 0.005485 seconds
+  Import took 0.015176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.011676 seconds.
+  path: Assets/VR Framework/Scripts/Pointers/Pointer.cs
+  artifactKey: Guid(365a819e4e443e74283b7fda8d87b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/Scripts/Pointers/Pointer.cs using Guid(365a819e4e443e74283b7fda8d87b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e91a0da3b99b2db7121f01041ec5765') in 0.010780 seconds
+  Import took 0.017528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.872500 seconds.
+  path: Assets/VR Framework/Scripts/Pointers/StraightPointerRenderer.cs
+  artifactKey: Guid(bb1fc1d3e2057334ca5807bee28a68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/Scripts/Pointers/StraightPointerRenderer.cs using Guid(bb1fc1d3e2057334ca5807bee28a68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6166015f48971a8a8d1b061e1b666a4e') in 0.008819 seconds
+  Import took 0.015775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001182 seconds.
+  path: Assets/VR Framework/Scripts/Pointers/StraightPointerRenderer.cs
+  artifactKey: Guid(bb1fc1d3e2057334ca5807bee28a68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/Scripts/Pointers/StraightPointerRenderer.cs using Guid(bb1fc1d3e2057334ca5807bee28a68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6166015f48971a8a8d1b061e1b666a4e') in 0.004775 seconds
+  Import took 0.011604 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004593 seconds.
+Registered in 0.006396 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.467 seconds
+- Completed reload, in  1.642 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2607 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.5 MB.
-System memory in use after: 124.8 MB.
+Unloading 2608 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.2 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3217.
-Total: 4.690200 ms (FindLiveObjects: 0.557300 ms CreateObjectMapping: 0.313900 ms MarkObjects: 3.794200 ms  DeleteObjects: 0.022500 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3215.
+Total: 5.272700 ms (FindLiveObjects: 0.687800 ms CreateObjectMapping: 0.254100 ms MarkObjects: 4.302400 ms  DeleteObjects: 0.026800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 739.046506 seconds.
+  path: Assets/SteamVR/Prefabs/[CameraRig].prefab
+  artifactKey: Guid(4d293c8e162f3874b982baadd71153d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[CameraRig].prefab using Guid(4d293c8e162f3874b982baadd71153d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbe94db8252f76987ed52b6932da5fe') in 0.397513 seconds
+  Import took 0.405365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/SteamVR/Models/vr_alien_hand.fbx
+  artifactKey: Guid(35bf13fffe3e1b54b9be7cf6d9808f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Models/vr_alien_hand.fbx using Guid(35bf13fffe3e1b54b9be7cf6d9808f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95650ec223a6e1917d1fec22d9f7f8e') in 0.554051 seconds
+  Import took 0.562588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Sounds/ArrowAir03.wav
+  artifactKey: Guid(efee776e88902a74684c56ce2962678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Sounds/ArrowAir03.wav using Guid(efee776e88902a74684c56ce2962678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde8c1fb7aed2bea3a586d1f991499e4') in 0.041887 seconds
+  Import took 0.051564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Sounds/ArrowAir02.wav
+  artifactKey: Guid(d53053a416c413d40ae35d3b3d2c8277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Sounds/ArrowAir02.wav using Guid(d53053a416c413d40ae35d3b3d2c8277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6c239dab89d62d86231ef6856ef3fa') in 0.044872 seconds
+  Import took 0.054677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/SteamVR/Prefabs/[Status].prefab
+  artifactKey: Guid(255333d57084e4e46b3d948279746a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[Status].prefab using Guid(255333d57084e4e46b3d948279746a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4c5abf00b2522c02a12411b526912c') in 0.124754 seconds
+  Import took 0.133936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/ArcheryWeeble.prefab
+  artifactKey: Guid(7fe1fef3cfad86946b3a549d6934330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/ArcheryWeeble.prefab using Guid(7fe1fef3cfad86946b3a549d6934330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3297242f62f1cde2f69da9e315257fd') in 0.676175 seconds
+  Import took 0.726876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/SteamVR/InteractionSystem/SnapTurn/snapTurnFX.fbx
+  artifactKey: Guid(62dcc32f358950744a33cf3ced87eaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/SnapTurn/snapTurnFX.fbx using Guid(62dcc32f358950744a33cf3ced87eaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee2d323bd595fea357b8814fd617a45') in 0.426305 seconds
+  Import took 0.433027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Sounds/ArrowAir01.wav
+  artifactKey: Guid(918ee1b51fd32d748a66d520586569ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Sounds/ArrowAir01.wav using Guid(918ee1b51fd32d748a66d520586569ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05b5a33b4717de06a8a1106e4047697') in 0.036856 seconds
+  Import took 0.044364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/Arrow.prefab
+  artifactKey: Guid(81fc1450441aca64e8cc1a0e14b1aa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/Arrow.prefab using Guid(81fc1450441aca64e8cc1a0e14b1aa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32525e14cb91744c8d08717142ba9710') in 0.742568 seconds
+  Import took 0.750267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Buggy.fbx
+  artifactKey: Guid(f9203d611b7f1a94ba17ef2ec88e6447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Buggy.fbx using Guid(f9203d611b7f1a94ba17ef2ec88e6447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17772dd0ec82435517c6e5b46351b1b') in 0.332921 seconds
+  Import took 0.341425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(8555014c9dcb9d542874d80b860cd62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(8555014c9dcb9d542874d80b860cd62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2168825046136a55c34000593208580') in 0.026644 seconds
+  Import took 0.034617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Buggy Controller.fbx
+  artifactKey: Guid(02842627faccabf418acf404c32f7b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Buggy Controller.fbx using Guid(02842627faccabf418acf404c32f7b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993228f7680651dead4fe128d2cbb890') in 0.264218 seconds
+  Import took 0.272048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/SteamVR/Prefabs/[SteamVR].prefab
+  artifactKey: Guid(4f35fa249b5008c44ac2998be6f82d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[SteamVR].prefab using Guid(4f35fa249b5008c44ac2998be6f82d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf68d2fa59068095b4ae8234fc979b7') in 0.012634 seconds
+  Import took 0.021826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Models/Arrow.fbx
+  artifactKey: Guid(56377e28a47008245871ca7b435044c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Models/Arrow.fbx using Guid(56377e28a47008245871ca7b435044c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7bb7f59bb07bf9895332f9cb47eeaa') in 0.034477 seconds
+  Import took 0.043109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/URP Assets/Presets/Defaults/AlbedoTexture_Default.preset
+  artifactKey: Guid(e8537455c6c08bd4e8bf0be3707da685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP Assets/Presets/Defaults/AlbedoTexture_Default.preset using Guid(e8537455c6c08bd4e8bf0be3707da685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ee8515120f9f05d4940ebb4dac506a') in 0.042544 seconds
+  Import took 0.050166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/PhysicMaterials/ArcheryTargetPhysMaterial.physicMaterial
+  artifactKey: Guid(c509d5711dc2cc346be2763cd92383ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/PhysicMaterials/ArcheryTargetPhysMaterial.physicMaterial using Guid(c509d5711dc2cc346be2763cd92383ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821ee17f611f71554070b2505f17731c') in 0.015333 seconds
+  Import took 0.024146 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006160 seconds.
+Registered in 0.004841 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.951 seconds
+- Completed reload, in  2.297 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2607 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.8 MB.
-System memory in use after: 125.0 MB.
+Unloading 2608 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 143.2 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3220.
-Total: 7.760300 ms (FindLiveObjects: 0.603800 ms CreateObjectMapping: 0.303500 ms MarkObjects: 6.818600 ms  DeleteObjects: 0.031300 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3264.
+Total: 4.780900 ms (FindLiveObjects: 0.617000 ms CreateObjectMapping: 0.277400 ms MarkObjects: 3.843100 ms  DeleteObjects: 0.041900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004496 seconds.
+Registered in 0.005294 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.554 seconds
+- Completed reload, in  1.995 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2607 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.8 MB.
-System memory in use after: 125.0 MB.
+Unloading 2608 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 143.2 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3223.
-Total: 6.899900 ms (FindLiveObjects: 1.745000 ms CreateObjectMapping: 0.460600 ms MarkObjects: 4.654000 ms  DeleteObjects: 0.037700 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3267.
+Total: 3.288900 ms (FindLiveObjects: 0.374700 ms CreateObjectMapping: 0.166300 ms MarkObjects: 2.719300 ms  DeleteObjects: 0.027300 ms)
 
 ========================================================================
 Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Registering precompiled user dll's ...
+Registered in 0.004287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3223.
-Total: 3.697400 ms (FindLiveObjects: 0.596800 ms CreateObjectMapping: 0.225800 ms MarkObjects: 2.846800 ms  DeleteObjects: 0.026000 ms)
-
-========================================================================
-Received Prepare
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.937 seconds
+Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.0 MB.
-System memory in use after: 74.3 MB.
+Unloading 2608 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 143.2 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3223.
-Total: 15.986300 ms (FindLiveObjects: 0.373600 ms CreateObjectMapping: 0.161700 ms MarkObjects: 15.406900 ms  DeleteObjects: 0.040700 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3270.
+Total: 9.356000 ms (FindLiveObjects: 0.562700 ms CreateObjectMapping: 0.304600 ms MarkObjects: 8.454800 ms  DeleteObjects: 0.032000 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
