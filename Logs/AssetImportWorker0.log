@@ -498,3 +498,44 @@ Received Import Request.
 Start importing Assets/VR Framework/FairyDustVR/Models/Assets using Guid(9da0e53664751ab4985265522a03b8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3036d05fc5a27da3ed814eca48afb489') in 0.012590 seconds
   Import took 0.020979 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2607 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.4 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3328.
+Total: 2.858900 ms (FindLiveObjects: 0.314000 ms CreateObjectMapping: 0.155300 ms MarkObjects: 2.338900 ms  DeleteObjects: 0.048800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 283.586936 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/DayNight/FadeObject.cs
+  artifactKey: Guid(3a2758b4fa398634d9f033a47b5b71a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/DayNight/FadeObject.cs using Guid(3a2758b4fa398634d9f033a47b5b71a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672523a053eb3f39b1df7f4bcfa525bf') in 0.016542 seconds
+  Import took 0.023718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019565 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/DayNight/FadeObject.cs
+  artifactKey: Guid(3a2758b4fa398634d9f033a47b5b71a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/DayNight/FadeObject.cs using Guid(3a2758b4fa398634d9f033a47b5b71a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672523a053eb3f39b1df7f4bcfa525bf') in 0.005252 seconds
+  Import took 0.012417 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
