@@ -15,11 +15,11 @@ E:/OneDrive - TAFE NSW/VR GITHUB/FairyDustVR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61441
+57800
 Successfully changed project path to: E:/OneDrive - TAFE NSW/VR GITHUB/FairyDustVR
 E:/OneDrive - TAFE NSW/VR GITHUB/FairyDustVR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 496.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,841 +36,216 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001664 seconds.
+Registered in 0.002787 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 105.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 131.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.543 seconds
+- Completed reload, in  3.004 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004297 seconds.
+Registered in 0.005018 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 99.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.712 seconds
+- Completed reload, in  1.647 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2741 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.6 MB.
-System memory in use after: 134.8 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3202.
-Total: 3.381900 ms (FindLiveObjects: 0.419800 ms CreateObjectMapping: 0.206200 ms MarkObjects: 2.666100 ms  DeleteObjects: 0.087700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/VR Framework/FairyDustVR/Scenes/StartScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR/Scenes/StartScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d94ef04571d5a1592f96cd26947fd71') in 0.301298 seconds
-  Import took 0.306502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.139432 seconds.
-  path: Assets/VR Framework/FairyDustVR/Scripts/LoadScene.cs
-  artifactKey: Guid(67fd6e8d121673947b73264ffda6d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR/Scripts/LoadScene.cs using Guid(67fd6e8d121673947b73264ffda6d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4290b787efa9688ed6baf583bda49283') in 0.267625 seconds
-  Import took 0.323300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.163860 seconds.
-  path: Assets/VR Framework/FairyDustVR/Scripts/LoadScene.cs
-  artifactKey: Guid(67fd6e8d121673947b73264ffda6d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR/Scripts/LoadScene.cs using Guid(67fd6e8d121673947b73264ffda6d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9452bf5ea58d1ab1e73e9dace0cd1e2') in 1.554165 seconds
-  Import took 1.561639 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005097 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.07 seconds
 Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.550 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.6 MB.
-System memory in use after: 128.8 MB.
+Unloading 2741 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.3 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3205.
-Total: 3.242700 ms (FindLiveObjects: 0.329800 ms CreateObjectMapping: 0.159800 ms MarkObjects: 2.730400 ms  DeleteObjects: 0.021100 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3204.
+Total: 4.337800 ms (FindLiveObjects: 0.503500 ms CreateObjectMapping: 0.227200 ms MarkObjects: 3.297300 ms  DeleteObjects: 0.307800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/VR Framework/FairyDustVR/Scripts/DayNight/TimeController.cs
+  artifactKey: Guid(fbe5de2dcbc23e24db9f0e1fe7b4afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/DayNight/TimeController.cs using Guid(fbe5de2dcbc23e24db9f0e1fe7b4afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d608ab184ba406e65a21f1c42ebcf2') in 0.052131 seconds
+  Import took 0.073179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/FakePlayerMove.cs
+  artifactKey: Guid(c5365f4c9d9a17b44b9a663761855723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/FakePlayerMove.cs using Guid(c5365f4c9d9a17b44b9a663761855723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52362699a77fb199ad2ede997ad7fcb0') in 0.013708 seconds
+  Import took 0.047018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.643895 seconds.
+  path: Assets/VR Framework/FairyDustVR/Animators/New Animation.anim
+  artifactKey: Guid(622cdb553060dba4293ba2867a5ff564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Animators/New Animation.anim using Guid(622cdb553060dba4293ba2867a5ff564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6387db6679a3152472a422f1a1e9ac') in 2.361342 seconds
+  Import took 2.392302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.873849 seconds.
+  path: Assets/VR Framework/FairyDustVR/Animators/Idle.anim
+  artifactKey: Guid(622cdb553060dba4293ba2867a5ff564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Animators/Idle.anim using Guid(622cdb553060dba4293ba2867a5ff564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50e7b475126559da715b0c2b9be1feb') in 0.043219 seconds
+  Import took 0.079614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.892498 seconds.
+  path: Assets/VR Framework/FairyDustVR/Animators/Idle.anim
+  artifactKey: Guid(622cdb553060dba4293ba2867a5ff564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Animators/Idle.anim using Guid(622cdb553060dba4293ba2867a5ff564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50354f9a3f20cf12e24e6af67fdef66d') in 0.053135 seconds
+  Import took 0.060382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 869.219529 seconds.
+  path: Assets/VR Framework/FairyDustVR/Animators/Wisp.controller
+  artifactKey: Guid(83cf6b081747874478b5f2c25c7ea3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Animators/Wisp.controller using Guid(83cf6b081747874478b5f2c25c7ea3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed10011f4b1d72297c29c07ee40b8bf') in 2.389904 seconds
+  Import took 2.418328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 347.841145 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/Wisp.cs
+  artifactKey: Guid(a8b7e318fbf859d4e80dbc3661ee7dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/Wisp.cs using Guid(a8b7e318fbf859d4e80dbc3661ee7dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b53402ba00fa94d0658f242017a92bb') in 0.100575 seconds
+  Import took 0.278704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034426 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/Wisp.cs
+  artifactKey: Guid(a8b7e318fbf859d4e80dbc3661ee7dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/Wisp.cs using Guid(a8b7e318fbf859d4e80dbc3661ee7dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b53402ba00fa94d0658f242017a92bb') in 0.063192 seconds
+  Import took 0.071028 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006791 seconds.
+Registered in 0.005321 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.763 seconds
+- Completed reload, in  1.596 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.5 MB.
-System memory in use after: 128.7 MB.
+System memory in use before: 129.0 MB.
+System memory in use after: 129.2 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3208.
-Total: 4.480100 ms (FindLiveObjects: 0.918800 ms CreateObjectMapping: 0.495100 ms MarkObjects: 3.042300 ms  DeleteObjects: 0.021900 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3207.
+Total: 3.689100 ms (FindLiveObjects: 0.500900 ms CreateObjectMapping: 0.273200 ms MarkObjects: 2.872300 ms  DeleteObjects: 0.040400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 154.964014 seconds.
-  path: Assets/VR Framework/FairyDustVR/Scenes/FairyCircle.unity
-  artifactKey: Guid(09055e12359a61b489067b9a929b62e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR/Scenes/FairyCircle.unity using Guid(09055e12359a61b489067b9a929b62e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6d6c5b841dfb4da49b5566cdd3181c') in 0.200127 seconds
-  Import took 0.263830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005030 seconds.
-  path: Assets/VR Framework/FairyDustVR/Scenes/FairyCircle.unity
-  artifactKey: Guid(09055e12359a61b489067b9a929b62e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Framework/FairyDustVR/Scenes/FairyCircle.unity using Guid(09055e12359a61b489067b9a929b62e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6d6c5b841dfb4da49b5566cdd3181c') in 0.007034 seconds
-  Import took 0.015211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 186.414027 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass
-  artifactKey: Guid(49dce64b80831a24691e86adb09dfa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass using Guid(49dce64b80831a24691e86adb09dfa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58622a8a9094f50ca9f0a4d34c934f4d') in 0.011496 seconds
-  Import took 0.033104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.077296 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening/cloud01.png
-  artifactKey: Guid(99ba51f130c2c26458e8d83637667448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening/cloud01.png using Guid(99ba51f130c2c26458e8d83637667448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463bb078dc5da6778aa074f4a4ff3954') in 0.168267 seconds
-  Import took 0.269848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064268 seconds.
-  path: Assets/_Packages/Flat Textures Pack/Materials
-  artifactKey: Guid(dcb7bdab26c5ddf4da72b22640d05580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Flat Textures Pack/Materials using Guid(dcb7bdab26c5ddf4da72b22640d05580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384d37650f737a5f2f4cf4f61321ba9d') in 0.019200 seconds
-  Import took 0.045906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.179445 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-5.wav
-  artifactKey: Guid(a3e270d3a40da90458c342f9eb6d13da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-5.wav using Guid(a3e270d3a40da90458c342f9eb6d13da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37517cf948288e480112aaed94564d3') in 0.221620 seconds
-  Import took 0.253078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.060178 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-5.wav
-  artifactKey: Guid(8485978b26a66a948a4fd8a13452da6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-5.wav using Guid(8485978b26a66a948a4fd8a13452da6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ca22265bf1dd5a9caede0114463414') in 0.044128 seconds
-  Import took 0.083202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.053424 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 29-Audio.wav
-  artifactKey: Guid(4437bc80104f4f84a9149c54a918b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 29-Audio.wav using Guid(4437bc80104f4f84a9149c54a918b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2982aa4e9e5d9d984ea5e829785a5bdc') in 0.035983 seconds
-  Import took 0.107740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010264 seconds.
-  path: Assets/_Packages/Acorn Bringer Assets
-  artifactKey: Guid(e2c10558bd4f8fa49bde785c6a47fe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Acorn Bringer Assets using Guid(e2c10558bd4f8fa49bde785c6a47fe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e351b16fd85163ede81d2e20fa6ed0d8') in 0.011291 seconds
-  Import took 0.051007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.101859 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-4.wav
-  artifactKey: Guid(b04cf8501cb49e340a80bb6e111a7d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-4.wav using Guid(b04cf8501cb49e340a80bb6e111a7d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0764dfd540cba65a9a40fef99a9efd') in 0.043745 seconds
-  Import took 0.077170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026265 seconds.
-  path: Assets/_Packages/Acorn Bringer Assets/Simplistic Low Poly Nature/Textures
-  artifactKey: Guid(ca96bf15993200344ada60fb72ea2f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Acorn Bringer Assets/Simplistic Low Poly Nature/Textures using Guid(ca96bf15993200344ada60fb72ea2f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a7dd776e64ccc343bedbbd63a1d270') in 0.012011 seconds
-  Import took 0.031683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.150029 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/day
-  artifactKey: Guid(be61884b24a259649bc5e023ef71227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/day using Guid(be61884b24a259649bc5e023ef71227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c59de07fe3cf42ea9943ef920b3e1a0') in 0.012922 seconds
-  Import took 0.062746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010996 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/night
-  artifactKey: Guid(896d4ab34cd92cf49b59e456191e12be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/night using Guid(896d4ab34cd92cf49b59e456191e12be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edde0ab989c29dde45aab9a780a68659') in 0.010737 seconds
-  Import took 0.045610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009630 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/StepsLoop
-  artifactKey: Guid(106e0471865359c4ea47a1c80ea9e74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/StepsLoop using Guid(106e0471865359c4ea47a1c80ea9e74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25ea3a7121c420172da32ce8933aaeb') in 0.011806 seconds
-  Import took 0.063425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018756 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-3.wav
-  artifactKey: Guid(5f6ab9d30af9a364fbb34fdaa71d18f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-3.wav using Guid(5f6ab9d30af9a364fbb34fdaa71d18f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b36e026bc72f2599c5b9118c463bd7') in 0.036761 seconds
-  Import took 0.105359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.148654 seconds.
-  path: Assets/_Packages/Acorn Bringer Assets/Simplistic Low Poly Nature/Materials
-  artifactKey: Guid(cc07236b589e7a84b92a718534a94663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Acorn Bringer Assets/Simplistic Low Poly Nature/Materials using Guid(cc07236b589e7a84b92a718534a94663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288b2213015711f027128f00031a525d') in 0.006881 seconds
-  Import took 0.050811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.171390 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background
-  artifactKey: Guid(6b93c5c4e39b3954db47457a6e33eaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background using Guid(6b93c5c4e39b3954db47457a6e33eaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4048441ec2f80cb9d28a4238f5452e9c') in 0.011626 seconds
-  Import took 0.019418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017189 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-1.wav
-  artifactKey: Guid(e5633a3bf427d7140ad133fa3dd7b63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-1.wav using Guid(e5633a3bf427d7140ad133fa3dd7b63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e240e98f5642777b876d9636b135dcaf') in 0.172651 seconds
-  Import took 0.181361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025931 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/night/mountain02.png
-  artifactKey: Guid(4f896d7c37e46c34c9b57f2e7fed52c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/night/mountain02.png using Guid(4f896d7c37e46c34c9b57f2e7fed52c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192a6ef2b9ce98e4ce4d7285c9e09830') in 0.050171 seconds
-  Import took 0.057124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020266 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps
-  artifactKey: Guid(5fdac970a3b15c14c9da6ce2ba837a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps using Guid(5fdac970a3b15c14c9da6ce2ba837a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcc73ccf4b5f494cbc07405768d1af9') in 0.009715 seconds
-  Import took 0.049794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.281206 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening
-  artifactKey: Guid(3e873d0fc06f8ca4a99b2323fdbf7577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening using Guid(3e873d0fc06f8ca4a99b2323fdbf7577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae61107419f808b86d46fce04b2b9762') in 0.011389 seconds
-  Import took 0.056018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016001 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-1.wav
-  artifactKey: Guid(a028be27b3c28494592f11a6ae991669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-1.wav using Guid(a028be27b3c28494592f11a6ae991669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37586f94b896cd341dac1cbb60922646') in 0.149429 seconds
-  Import took 0.246456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013339 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/Examples
-  artifactKey: Guid(7a5ecea6fea8ed342a104305af699a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/Examples using Guid(7a5ecea6fea8ed342a104305af699a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa884e17508986afaa051f31521b23d') in 0.012113 seconds
-  Import took 0.034698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030593 seconds.
-  path: Assets/_Packages/StreetLampType3Free/Meshes
-  artifactKey: Guid(0761e05c8db99534abe9f59bde54d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/StreetLampType3Free/Meshes using Guid(0761e05c8db99534abe9f59bde54d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba7b46d5622e88a6ec5511a4e59d759') in 0.010840 seconds
-  Import took 0.075983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014537 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 26-Audio.wav
-  artifactKey: Guid(b224ea4077fd9804c825863a283d50a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 26-Audio.wav using Guid(b224ea4077fd9804c825863a283d50a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4595715a0d503b2f9ce4505798493a') in 0.063512 seconds
-  Import took 0.072582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012379 seconds.
-  path: Assets/_Packages/StreetLampType3Free/Materials/LampMetal.mat
-  artifactKey: Guid(bc11ead518e9d024893df2ebe6e1b123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/StreetLampType3Free/Materials/LampMetal.mat using Guid(bc11ead518e9d024893df2ebe6e1b123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397e626d9bf4ce5ba53f469d92110490') in 0.266681 seconds
-  Import took 0.274471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035340 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening/mountain01.png
-  artifactKey: Guid(f138225fb2758c641b40ae90c500db26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening/mountain01.png using Guid(f138225fb2758c641b40ae90c500db26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf073ebf0dc920672c64102742d1dac') in 0.031141 seconds
-  Import took 0.041512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.369578 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/night/sky.png
-  artifactKey: Guid(fd8e132a64c68724e83ef37f68f9c1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/night/sky.png using Guid(fd8e132a64c68724e83ef37f68f9c1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff60bdac4f9ac1f5a249407d3ce19d23') in 0.022105 seconds
-  Import took 0.029368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.006440 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-4.wav
-  artifactKey: Guid(d34dc405a253cf843883e624f19048d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-4.wav using Guid(d34dc405a253cf843883e624f19048d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea653807698db04406ddea249ad38aab') in 0.039069 seconds
-  Import took 0.111144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.145338 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/Examples/Scene.unity
-  artifactKey: Guid(1ca1e548c6c0a7940acee6009006bc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/Examples/Scene.unity using Guid(1ca1e548c6c0a7940acee6009006bc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62ccb12e17f588a38cf8a0525d79638') in 0.017546 seconds
-  Import took 0.068601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012817 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/night/cloud02.png
-  artifactKey: Guid(cb4ab5a5300dcf24eaf0658a4c7dff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/night/cloud02.png using Guid(cb4ab5a5300dcf24eaf0658a4c7dff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bf4ac1a9aaa9bb665c93490d8ce3d0') in 0.022430 seconds
-  Import took 0.058528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027837 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/night/cloud03.png
-  artifactKey: Guid(e73463d1099f91b4ba8e31b9c3175996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/night/cloud03.png using Guid(e73463d1099f91b4ba8e31b9c3175996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ebf4ad545621fc4252bf65a7190687') in 0.023469 seconds
-  Import took 0.029435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096209 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 23-Audio.wav
-  artifactKey: Guid(80239785e252f734a942b4bd5c1b91e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 23-Audio.wav using Guid(80239785e252f734a942b4bd5c1b91e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e79a146608977dc9ec475e29b918ac') in 0.044874 seconds
-  Import took 0.065473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019436 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening/mountain02.png
-  artifactKey: Guid(db221b0bdb18e4748bbdcb1a3ace4495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening/mountain02.png using Guid(db221b0bdb18e4748bbdcb1a3ace4495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b6367835a569468464826857f950c2') in 0.019527 seconds
-  Import took 0.056676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039050 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/Examples/SceneSettings.lighting
-  artifactKey: Guid(bd9156c610c6c4f4eaa8517f52287e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/Examples/SceneSettings.lighting using Guid(bd9156c610c6c4f4eaa8517f52287e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'ae2cfff2c9d45e1841cd59e5a7597b7b') in 0.017601 seconds
-  Import took 0.024432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007842 seconds.
-  path: Assets/_Packages
-  artifactKey: Guid(0dcd16a8a1332ed44b84654a016043a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages using Guid(0dcd16a8a1332ed44b84654a016043a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d3fb22bf7b667c57c20683b1453f69') in 0.012877 seconds
-  Import took 0.018912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.159917 seconds.
-  path: Assets/_Packages/Flat Textures Pack
-  artifactKey: Guid(52b7e5c87254fda49acdc0509ddaa0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Flat Textures Pack using Guid(52b7e5c87254fda49acdc0509ddaa0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4650be057806901fc168be876c1b1643') in 0.093230 seconds
-  Import took 0.099932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023983 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-2.wav
-  artifactKey: Guid(aa6430dc92a010541b66a0b86cd9815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-2.wav using Guid(aa6430dc92a010541b66a0b86cd9815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d09687d4a531b12a297acaa8a3b100b') in 0.035911 seconds
-  Import took 0.118937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.115542 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 27-Audio.wav
-  artifactKey: Guid(dc739d782ed6fe5439fb6de4a13f53bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 27-Audio.wav using Guid(dc739d782ed6fe5439fb6de4a13f53bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbce30148cbcc3e5b7994877b5cb8399') in 0.071995 seconds
-  Import took 0.215165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102588 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/night/cloud01.png
-  artifactKey: Guid(18ad3666f05b674499b413025f1a4227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/night/cloud01.png using Guid(18ad3666f05b674499b413025f1a4227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3942d4d39651a6f9ac2ebca7691ee90e') in 0.107131 seconds
-  Import took 0.151454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.243584 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening/cloud03.png
-  artifactKey: Guid(a0398b1517032824da3d0ba68c409490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening/cloud03.png using Guid(a0398b1517032824da3d0ba68c409490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42baad4d5caa80598b9077440f4dfb73') in 0.067373 seconds
-  Import took 0.076350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031075 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/night/mountain01.png
-  artifactKey: Guid(0d08b6928114d47439546a398b35c506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/night/mountain01.png using Guid(0d08b6928114d47439546a398b35c506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af183041da1dde9a494b0bb20f70a77') in 0.029391 seconds
-  Import took 0.045711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064457 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 30-Audio.wav
-  artifactKey: Guid(592e7903575792e48aed4b7e5b699e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 30-Audio.wav using Guid(592e7903575792e48aed4b7e5b699e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52abe62fc3728a0e40244afb96299999') in 0.043299 seconds
-  Import took 0.080111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046958 seconds.
-  path: Assets/_Packages/Acorn Bringer Assets/Simplistic Low Poly Nature/Meshes
-  artifactKey: Guid(8e90614639c9eb24bb798faf5c897541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Acorn Bringer Assets/Simplistic Low Poly Nature/Meshes using Guid(8e90614639c9eb24bb798faf5c897541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b028732607c69db1f87d922b1dc9646') in 0.004781 seconds
-  Import took 0.043784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044654 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 24-Audio.wav
-  artifactKey: Guid(d1b0c91370b0bcb4fa83f9d084f31dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 24-Audio.wav using Guid(d1b0c91370b0bcb4fa83f9d084f31dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e873cdeff03050d2b8a6e67242ea8cb5') in 0.037292 seconds
-  Import took 0.059997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.161118 seconds.
-  path: Assets/_Packages/StreetLampType3Free/Materials
-  artifactKey: Guid(d6e1d152ef0611644b2423996073b4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/StreetLampType3Free/Materials using Guid(d6e1d152ef0611644b2423996073b4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e913800f24f1268f37646b4dbe6b7d') in 0.005405 seconds
-  Import took 0.807267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.220201 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound
-  artifactKey: Guid(fef1037eff3a074439fc9f7c7c673e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound using Guid(fef1037eff3a074439fc9f7c7c673e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf535a4a9bf0754e0f608d791731471e') in 0.342153 seconds
-  Import took 0.351567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.516413 seconds.
-  path: Assets/_Packages/StreetLampType3Free/Textures
-  artifactKey: Guid(886e88fdca52f744fbb4ecf299a6bb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/StreetLampType3Free/Textures using Guid(886e88fdca52f744fbb4ecf299a6bb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ec807b7290e7364dbded576dc0c09b') in 0.217784 seconds
-  Import took 0.258696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.205687 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/walking
-  artifactKey: Guid(1457a7a2988c4924e879cc3e40078123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/walking using Guid(1457a7a2988c4924e879cc3e40078123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0a1de88079bc0151774fbe672a5fd8') in 0.016629 seconds
-  Import took 0.099348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.319988 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 25-Audio.wav
-  artifactKey: Guid(07902d35c76dec04495ae89be0bca886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 25-Audio.wav using Guid(07902d35c76dec04495ae89be0bca886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc11c3bedf02fcd3ea19b90dfb6e74b1') in 0.050736 seconds
-  Import took 0.117622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031646 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 28-Audio.wav
-  artifactKey: Guid(6cb3eace11794c84db4995aa0a617ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 28-Audio.wav using Guid(6cb3eace11794c84db4995aa0a617ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f222f05ac8880efee96fc16b52812cff') in 0.062919 seconds
-  Import took 0.091074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024313 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening/cloud02.png
-  artifactKey: Guid(d9333f218377dda4ba9650ec8f76c40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening/cloud02.png using Guid(d9333f218377dda4ba9650ec8f76c40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab36c4d9c0287e1d0afdaef04aee0b9') in 0.020791 seconds
-  Import took 0.059315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.127230 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-3.wav
-  artifactKey: Guid(d848f6efc7d8df1469775a21c5a7846a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-3.wav using Guid(d848f6efc7d8df1469775a21c5a7846a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef321f215148ae1f751227d16c67706') in 0.049580 seconds
-  Import took 0.077354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.041581 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-2.wav
-  artifactKey: Guid(f4503cdaac346c849ba0cdfb2f039f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-2.wav using Guid(f4503cdaac346c849ba0cdfb2f039f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002712f21d66faecd1af2986dc0ebd2c') in 0.056494 seconds
-  Import took 0.093302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.081272 seconds.
-  path: Assets/_Packages/Footstep(Snow and Grass)
-  artifactKey: Guid(d24b394585045c34b8e5731b4c136d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Footstep(Snow and Grass) using Guid(d24b394585045c34b8e5731b4c136d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32307be307f418eb96dcee077a573745') in 0.015796 seconds
-  Import took 0.040731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033279 seconds.
-  path: Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening/sky.png
-  artifactKey: Guid(f55507d454bdf4147a49efc80be9332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Packages/Painted HQ 2D Forest Medieval Background/evening/sky.png using Guid(f55507d454bdf4147a49efc80be9332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae20a3c27fb410703496f08dbeb1445') in 0.016306 seconds
-  Import took 0.037455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.336028 seconds.
-  path: Assets/SteamVR_Input/SteamVR_Actions.asmdef
-  artifactKey: Guid(586dc4bc05f1d6c45ab1899945ea524a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR_Input/SteamVR_Actions.asmdef using Guid(586dc4bc05f1d6c45ab1899945ea524a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7c9fc6248641039e66e4c8f76fa376') in 0.018021 seconds
-  Import took 0.039271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.739829 seconds.
-  path: Assets/SteamVR_Resources/Resources
-  artifactKey: Guid(c667384cf70cc374f98646f207f8025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR_Resources/Resources using Guid(c667384cf70cc374f98646f207f8025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196692cdd39a502ce5f55eef983a2880') in 0.317943 seconds
-  Import took 0.323224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/SteamVR_Resources/Resources/SteamVR_Settings.asset
-  artifactKey: Guid(79f3efee1b31f7044aa663fd5c60ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR_Resources/Resources/SteamVR_Settings.asset using Guid(79f3efee1b31f7044aa663fd5c60ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027c4beafdb6fe0a2a4a20151c2545f7') in 0.034258 seconds
-  Import took 0.039319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.025666 seconds.
-  path: Assets/SteamVR/Simple Sample.unity
-  artifactKey: Guid(55f0e497bac1408458ff9dcebe0b775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Simple Sample.unity using Guid(55f0e497bac1408458ff9dcebe0b775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daff04b6db915402f1955662c1519db8') in 0.203918 seconds
-  Import took 0.224518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.960003 seconds.
-  path: Assets/SteamVR/Scripts/SteamVR_LoadLevel.cs
-  artifactKey: Guid(a5a6a70209b6e6345bfe18b02314a54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Scripts/SteamVR_LoadLevel.cs using Guid(a5a6a70209b6e6345bfe18b02314a54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1482a9ddd9410a162ef2d4ac916a0e54') in 0.190647 seconds
-  Import took 0.295518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.234845 seconds.
-  path: Assets/SteamVR/Scripts/SteamVR_RenderModel.cs
-  artifactKey: Guid(5890e3cad70bea64d91aef9145ba3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Scripts/SteamVR_RenderModel.cs using Guid(5890e3cad70bea64d91aef9145ba3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df871b33b8f1fe1e92bfa329d8f3dfae') in 1.900283 seconds
-  Import took 1.905151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.733004 seconds.
-  path: Assets/SteamVR/Scripts/SteamVR_Menu.cs
-  artifactKey: Guid(e7afc8c74d1f73b458705e0b946292a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Scripts/SteamVR_Menu.cs using Guid(e7afc8c74d1f73b458705e0b946292a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcc6345d0bed4385cbe7f3a603fce3c') in 0.010507 seconds
-  Import took 0.038218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.093933 seconds.
-  path: Assets/SteamVR/Scripts/SteamVR_Frustum.cs
-  artifactKey: Guid(b2d1785fa0c551e408b6c94398847b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Scripts/SteamVR_Frustum.cs using Guid(b2d1785fa0c551e408b6c94398847b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252de9f9ca564a52f4f9726b6027bab3') in 0.244614 seconds
-  Import took 0.291581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.359438 seconds.
-  path: Assets/SteamVR/WindowsHelper/SteamVR_Windows_EditorHelper.asmdef
-  artifactKey: Guid(256e975f9c776644aa4d86bc0c894f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/WindowsHelper/SteamVR_Windows_EditorHelper.asmdef using Guid(256e975f9c776644aa4d86bc0c894f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fd26a5ef1f13efdcbfdfef99006eb4') in 0.886320 seconds
-  Import took 0.926603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.665138 seconds.
-  path: Assets/SteamVR/WindowsHelper/SteamVR_Windows_Editor_Helper.cs
-  artifactKey: Guid(5162205b778d01647b0d6a2c523b2518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/WindowsHelper/SteamVR_Windows_Editor_Helper.cs using Guid(5162205b778d01647b0d6a2c523b2518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b0c1f6f9a3629d2babe0dd978a034d') in 0.081373 seconds
-  Import took 0.175727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.501120 seconds.
-  path: Assets/SteamVR/Textures/workshop.png
-  artifactKey: Guid(a57cd5c56c9d75c4ba0ee9fbc6e1d8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Textures/workshop.png using Guid(a57cd5c56c9d75c4ba0ee9fbc6e1d8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8233a5edbff550803744b1d2ac5bf7b7') in 0.118465 seconds
-  Import took 0.152532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.256857 seconds.
-  path: Assets/SteamVR/Resources/ReferencePose_BindPose.asset
-  artifactKey: Guid(9303872ccc6946c4185bc4b432372ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Resources/ReferencePose_BindPose.asset using Guid(9303872ccc6946c4185bc4b432372ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02ff783a2c86bce5d6611663f3a4465') in 0.022221 seconds
-  Import took 0.063517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/SteamVR/Resources/ReferencePose_OpenHand.asset
-  artifactKey: Guid(d93b955753287b048b63d232fa679470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Resources/ReferencePose_OpenHand.asset using Guid(d93b955753287b048b63d232fa679470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927a28ef48103e2b7027c0c4a9ad9951') in 0.011909 seconds
-  Import took 0.049761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/SteamVR/Resources/SteamVR_ExternalCamera.prefab
-  artifactKey: Guid(6b259143c09ffc447ad059e5b8d8cf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Resources/SteamVR_ExternalCamera.prefab using Guid(6b259143c09ffc447ad059e5b8d8cf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97511db7f3cd86ad204ef9b43cf427a') in 0.026186 seconds
-  Import took 0.033293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/SteamVR/Resources/SteamVR_HoverHighlight.mat
-  artifactKey: Guid(3f7b904f6bd0b77429148042b0254530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Resources/SteamVR_HoverHighlight.mat using Guid(3f7b904f6bd0b77429148042b0254530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb778aa13168d6ae4a53cbc74213056e') in 0.257581 seconds
-  Import took 0.275707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/SteamVR/Resources/ReferencePose_Fist.asset
-  artifactKey: Guid(5923b268404ed1c46a82b541e44c52af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Resources/ReferencePose_Fist.asset using Guid(5923b268404ed1c46a82b541e44c52af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efb9794817d44c8dc2b952b8334b4da') in 0.014094 seconds
-  Import took 0.058122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/SteamVR/Resources/SteamVR_HoverHighlight_URP.mat
-  artifactKey: Guid(205922f2f6cef6f4e886cbeb581b0d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Resources/SteamVR_HoverHighlight_URP.mat using Guid(205922f2f6cef6f4e886cbeb581b0d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b461de93928e2fd34764ca42ff03cdea') in 0.133324 seconds
-  Import took 0.158753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.965217 seconds.
-  path: Assets/SteamVR/Prefabs/controller.prefab
-  artifactKey: Guid(e789c2cc0c98a4c4198a4033fb8ccf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Prefabs/controller.prefab using Guid(e789c2cc0c98a4c4198a4033fb8ccf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ef2f18148bfc363698d285bf2bbca9') in 0.245887 seconds
-  Import took 0.285246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/SteamVR/Prefabs/vr_glove_right_model_slim.prefab
-  artifactKey: Guid(6def53d002137b747aec0b29551e0e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Prefabs/vr_glove_right_model_slim.prefab using Guid(6def53d002137b747aec0b29551e0e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5c49ca10cac8b7999e4b7e1aaa3ec7') in 0.139535 seconds
-  Import took 0.145233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/SteamVR/Prefabs/vr_hand_floppy_left.prefab
-  artifactKey: Guid(85d52d9937d11064295294895b28d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Prefabs/vr_hand_floppy_left.prefab using Guid(85d52d9937d11064295294895b28d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aec06a66b38e428d6e9eb1cd5ce5145') in 0.236592 seconds
-  Import took 0.254512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/SteamVR/Prefabs/vr_hand_alien_left.prefab
-  artifactKey: Guid(78cacad1b5fb93349a980d2189b52b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Prefabs/vr_hand_alien_left.prefab using Guid(78cacad1b5fb93349a980d2189b52b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68356fcdb8be58b41e21a7755d3223fe') in 0.361287 seconds
-  Import took 0.384388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/SteamVR/Prefabs/vr_glove_right.prefab
-  artifactKey: Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Prefabs/vr_glove_right.prefab using Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b870c1b3e881443523e9f670cfe66c2a') in 0.031709 seconds
-  Import took 0.037788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/SteamVR/Prefabs/vr_hand_floppy_right.prefab
-  artifactKey: Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Prefabs/vr_hand_floppy_right.prefab using Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f8ab0662fbabd9128621209841af2e') in 0.039999 seconds
-  Import took 0.083817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/SteamVR/Prefabs/vr_hand_alien_right.prefab
-  artifactKey: Guid(a2330dd3e2bcb44428f727270af1d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Prefabs/vr_hand_alien_right.prefab using Guid(a2330dd3e2bcb44428f727270af1d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659bd2273be9433c4d48623f43b68dbf') in 0.033932 seconds
-  Import took 0.087101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/SteamVR/Prefabs/vr_glove_left_model_slim.prefab
-  artifactKey: Guid(638779290bce1af49b356f33dcc6fccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Prefabs/vr_glove_left_model_slim.prefab using Guid(638779290bce1af49b356f33dcc6fccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872cff677771bd14c68989b23f1564f9') in 0.032941 seconds
-  Import took 0.097212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/SteamVR/Prefabs/vr_glove_left.prefab
-  artifactKey: Guid(057574477c20401448aba7c848873712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Prefabs/vr_glove_left.prefab using Guid(057574477c20401448aba7c848873712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd34b4031446242142cd32da75a0ee5c') in 0.217255 seconds
-  Import took 0.278028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.423226 seconds.
-  path: Assets/SteamVR/Models/handFingers.mask
-  artifactKey: Guid(822c72f828488434a89ef1d2b9372069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Models/handFingers.mask using Guid(822c72f828488434a89ef1d2b9372069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8783752e8705de101c641b9d39bb23') in 0.060337 seconds
-  Import took 0.067867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/SteamVR/Models/vr_glove_left_model_slim.fbx
-  artifactKey: Guid(65d8eda911e0ba548a3674f65c43308b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Models/vr_glove_left_model_slim.fbx using Guid(65d8eda911e0ba548a3674f65c43308b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111b26d948993e662d2143030d9d251f') in 0.315816 seconds
-  Import took 0.323727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/SteamVR/Models/vr_glove_model.fbx
-  artifactKey: Guid(02d2c3f5b5ca1014c8fb700e729167ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Models/vr_glove_model.fbx using Guid(02d2c3f5b5ca1014c8fb700e729167ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89c7e530df3ef12e9feb278d01107a6') in 0.062310 seconds
-  Import took 0.069729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/SteamVR/Models/vr_glove_right_model_slim.fbx
-  artifactKey: Guid(641e9d2f5c6b4cb438161abef3be8300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Models/vr_glove_right_model_slim.fbx using Guid(641e9d2f5c6b4cb438161abef3be8300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1719ce905b44ef71eb23f1333975d0a0') in 0.159777 seconds
-  Import took 0.281301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/SteamVR/Models/vr_floppyHand.fbx
-  artifactKey: Guid(395115150fc0faf40abd1994e7405303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Models/vr_floppyHand.fbx using Guid(395115150fc0faf40abd1994e7405303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd2e4cf4152b74068160380900199a3') in 0.043223 seconds
-  Import took 0.212559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/SteamVR/Models/vr_hand_grabposes.fbx
-  artifactKey: Guid(5b1b3324d9af1db498a8cb294cc8d274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Models/vr_hand_grabposes.fbx using Guid(5b1b3324d9af1db498a8cb294cc8d274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c062e01306c944d124560d9449505c') in 0.124343 seconds
-  Import took 0.226967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.406473 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples
-  artifactKey: Guid(bd2dd58615e1ced41ae3178451fab370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples using Guid(bd2dd58615e1ced41ae3178451fab370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c35e7c3a6dafae1a486c24dbaed830') in 0.987410 seconds
-  Import took 1.030927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.896696 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/Interactions_Example.unity
-  artifactKey: Guid(e3b77830391f10343929883b18f4d5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/Interactions_Example.unity using Guid(e3b77830391f10343929883b18f4d5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8973e32d0e111d96648245a62c6a4c') in 0.025468 seconds
-  Import took 0.068058 seconds .
+  Time since last request: 36.783870 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/Wisp.cs
+  artifactKey: Guid(a8b7e318fbf859d4e80dbc3661ee7dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/Wisp.cs using Guid(a8b7e318fbf859d4e80dbc3661ee7dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2808e6c234b0ce27bf56b714d75d065') in 0.993771 seconds
+  Import took 1.299732 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006437 seconds.
+Registered in 0.004414 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.481 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 129.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3210.
+Total: 4.959600 ms (FindLiveObjects: 0.678800 ms CreateObjectMapping: 0.258400 ms MarkObjects: 3.983800 ms  DeleteObjects: 0.036100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.621 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3213.
+Total: 3.563000 ms (FindLiveObjects: 0.592300 ms CreateObjectMapping: 0.281700 ms MarkObjects: 2.654800 ms  DeleteObjects: 0.031800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.803 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3216.
+Total: 5.590400 ms (FindLiveObjects: 0.425100 ms CreateObjectMapping: 0.349600 ms MarkObjects: 4.779200 ms  DeleteObjects: 0.034400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005222 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
@@ -879,15 +254,939 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.295 seconds
+- Completed reload, in  1.598 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.9 MB.
-System memory in use after: 146.1 MB.
+System memory in use before: 129.2 MB.
+System memory in use after: 129.4 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3310.
-Total: 7.767700 ms (FindLiveObjects: 0.646600 ms CreateObjectMapping: 0.533600 ms MarkObjects: 6.550900 ms  DeleteObjects: 0.034700 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3219.
+Total: 3.088200 ms (FindLiveObjects: 0.652500 ms CreateObjectMapping: 0.180300 ms MarkObjects: 2.231700 ms  DeleteObjects: 0.021500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004197 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.324 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 129.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3222.
+Total: 4.135700 ms (FindLiveObjects: 0.496000 ms CreateObjectMapping: 0.238900 ms MarkObjects: 3.377800 ms  DeleteObjects: 0.020800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 429.528154 seconds.
+  path: Assets/VR Framework/FairyDustVR/Animators/Swirl.anim
+  artifactKey: Guid(801f302db5d4d7d4c9422c70faee8eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Animators/Swirl.anim using Guid(801f302db5d4d7d4c9422c70faee8eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc471966199ac13f35d548ad35a20e22') in 0.037095 seconds
+  Import took 0.085967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.774618 seconds.
+  path: Assets/VR Framework/FairyDustVR/Animators/Idle.anim
+  artifactKey: Guid(622cdb553060dba4293ba2867a5ff564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Animators/Idle.anim using Guid(622cdb553060dba4293ba2867a5ff564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434f6821b7c6a0b8bb5e3b2425078247') in 0.139242 seconds
+  Import took 0.248529 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.959 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3225.
+Total: 3.692600 ms (FindLiveObjects: 0.584400 ms CreateObjectMapping: 0.205300 ms MarkObjects: 2.868400 ms  DeleteObjects: 0.033000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.186256 seconds.
+  path: Assets/VR Framework/FairyDustVR/Animators/Idle.anim
+  artifactKey: Guid(622cdb553060dba4293ba2867a5ff564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Animators/Idle.anim using Guid(622cdb553060dba4293ba2867a5ff564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3710f9c27fc1510df4888d19b0786f8a') in 0.325346 seconds
+  Import took 0.432665 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.132 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.4 MB.
+System memory in use after: 129.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3228.
+Total: 3.699800 ms (FindLiveObjects: 0.580600 ms CreateObjectMapping: 0.303400 ms MarkObjects: 2.786300 ms  DeleteObjects: 0.027100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.914 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.4 MB.
+System memory in use after: 129.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3231.
+Total: 3.789400 ms (FindLiveObjects: 0.564600 ms CreateObjectMapping: 0.260600 ms MarkObjects: 2.931900 ms  DeleteObjects: 0.029700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003637 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.815 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3234.
+Total: 3.511300 ms (FindLiveObjects: 0.634100 ms CreateObjectMapping: 0.293300 ms MarkObjects: 2.560700 ms  DeleteObjects: 0.021700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 280.026773 seconds.
+  path: Assets/VR Framework/FairyDustVR/Animators/Swirl.anim
+  artifactKey: Guid(801f302db5d4d7d4c9422c70faee8eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Animators/Swirl.anim using Guid(801f302db5d4d7d4c9422c70faee8eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bf356e79dcd0af44900f6a7b151019') in 0.037185 seconds
+  Import took 0.046613 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.563 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3237.
+Total: 3.831900 ms (FindLiveObjects: 0.509100 ms CreateObjectMapping: 0.303000 ms MarkObjects: 2.981600 ms  DeleteObjects: 0.036500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004376 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.917 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 129.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3240.
+Total: 3.325700 ms (FindLiveObjects: 0.651200 ms CreateObjectMapping: 0.277700 ms MarkObjects: 2.373500 ms  DeleteObjects: 0.022000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004366 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.707 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.4 MB.
+System memory in use after: 129.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3243.
+Total: 4.390200 ms (FindLiveObjects: 0.555800 ms CreateObjectMapping: 0.245100 ms MarkObjects: 3.524900 ms  DeleteObjects: 0.052800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004294 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.874 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3246.
+Total: 4.433000 ms (FindLiveObjects: 0.546900 ms CreateObjectMapping: 0.203000 ms MarkObjects: 3.646500 ms  DeleteObjects: 0.034500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004882 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.795 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.4 MB.
+System memory in use after: 129.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3249.
+Total: 3.110200 ms (FindLiveObjects: 0.514000 ms CreateObjectMapping: 0.299500 ms MarkObjects: 2.275900 ms  DeleteObjects: 0.019000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004290 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.093 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.4 MB.
+System memory in use after: 129.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3252.
+Total: 3.934100 ms (FindLiveObjects: 0.444100 ms CreateObjectMapping: 0.230700 ms MarkObjects: 3.225200 ms  DeleteObjects: 0.032500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2192.511628 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(c9a901c93cfcfb8498af84cd1686ef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(c9a901c93cfcfb8498af84cd1686ef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '9a3dcd42397008d5a5805abae3f3d5c2') in 1.162284 seconds
+  Import took 1.173372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.820555 seconds.
+  path: Assets/Textures & Shaders
+  artifactKey: Guid(b51c1aa8cc8f64d45b6247b841b1c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures & Shaders using Guid(b51c1aa8cc8f64d45b6247b841b1c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cbfe21b0e5cb081bc63c0bbd79e58b') in 0.138027 seconds
+  Import took 0.169728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Textures & Shaders/Eclipse.png
+  artifactKey: Guid(e9b3c228915df944b9c1e738d8bcbdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures & Shaders/Eclipse.png using Guid(e9b3c228915df944b9c1e738d8bcbdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41df153d74af2dffe9d9fc9dec5baca') in 0.183582 seconds
+  Import took 0.190991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.166602 seconds.
+  path: Assets/Textures & Shaders/Eclipse.png
+  artifactKey: Guid(e9b3c228915df944b9c1e738d8bcbdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures & Shaders/Eclipse.png using Guid(e9b3c228915df944b9c1e738d8bcbdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00447f0a71c7f95c7bd26d1d923d51e6') in 0.193542 seconds
+  Import took 0.202933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.153321 seconds.
+  path: Assets/Textures & Shaders/EclipseMaterial.mat
+  artifactKey: Guid(e793c59fb9557454b8cdc15d43f0839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures & Shaders/EclipseMaterial.mat using Guid(e793c59fb9557454b8cdc15d43f0839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaae45f48377e37a0274ff3343b73e00') in 0.324314 seconds
+  Import took 0.331825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 187.744188 seconds.
+  path: Assets/Textures & Shaders/EclipseMaterial.mat
+  artifactKey: Guid(e793c59fb9557454b8cdc15d43f0839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures & Shaders/EclipseMaterial.mat using Guid(e793c59fb9557454b8cdc15d43f0839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb476aebb359a11498fb03ad8baea43') in 0.069370 seconds
+  Import took 0.078886 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.789 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2616 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3343.
+Total: 6.134900 ms (FindLiveObjects: 0.750600 ms CreateObjectMapping: 0.337000 ms MarkObjects: 5.020000 ms  DeleteObjects: 0.025200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 920.341826 seconds.
+  path: Assets/VR Framework/FairyDustVR/Animators
+  artifactKey: Guid(8dd2ba7fa2801294aad9f4630e9a0e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Animators using Guid(8dd2ba7fa2801294aad9f4630e9a0e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15e944e75a6335eba4c83b79ba9551a') in 0.025601 seconds
+  Import took 0.032363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.371093 seconds.
+  path: Assets/VR Framework/FairyDustVR/Animators/Swirl Particle System.controller
+  artifactKey: Guid(9b07215f7d67b42429554dbca99204e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Animators/Swirl Particle System.controller using Guid(9b07215f7d67b42429554dbca99204e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62d56680f3aa1b4f710f79829c76dec') in 0.034796 seconds
+  Import took 0.040583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.624448 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b7420346f44373247d77e2255b4bee') in 0.011999 seconds
+  Import took 0.020249 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.696 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3347.
+Total: 2.958700 ms (FindLiveObjects: 0.459500 ms CreateObjectMapping: 0.196900 ms MarkObjects: 2.279400 ms  DeleteObjects: 0.021600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 501.380342 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd246de824dc30df05abe3599dd208701') in 0.011431 seconds
+  Import took 0.018854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.212726 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd246de824dc30df05abe3599dd208701') in 0.004682 seconds
+  Import took 0.013336 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003944 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3350.
+Total: 3.698600 ms (FindLiveObjects: 0.572500 ms CreateObjectMapping: 0.319500 ms MarkObjects: 2.782200 ms  DeleteObjects: 0.022400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.096122 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3306928e8c79f099d5117a469e30dc66') in 0.009779 seconds
+  Import took 0.020161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.208010 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3306928e8c79f099d5117a469e30dc66') in 0.005970 seconds
+  Import took 0.015067 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3353.
+Total: 2.794900 ms (FindLiveObjects: 0.337800 ms CreateObjectMapping: 0.179200 ms MarkObjects: 2.254500 ms  DeleteObjects: 0.022200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 403.298449 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517e5216235098228fe258e77a6af319') in 0.011349 seconds
+  Import took 0.020592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234180 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517e5216235098228fe258e77a6af319') in 0.005305 seconds
+  Import took 0.012744 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3356.
+Total: 3.143100 ms (FindLiveObjects: 0.498500 ms CreateObjectMapping: 0.189600 ms MarkObjects: 2.412600 ms  DeleteObjects: 0.040800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.438496 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f425a49d8eceb6cc74a1065a104d1b') in 0.009147 seconds
+  Import took 0.017240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084851 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f425a49d8eceb6cc74a1065a104d1b') in 0.004849 seconds
+  Import took 0.015234 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.319 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3359.
+Total: 4.631700 ms (FindLiveObjects: 0.567600 ms CreateObjectMapping: 0.322300 ms MarkObjects: 3.716700 ms  DeleteObjects: 0.023200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.504183 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2472c24d3c39fd79f26bfe96c71cd0') in 0.009010 seconds
+  Import took 0.017136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213118 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2472c24d3c39fd79f26bfe96c71cd0') in 0.005195 seconds
+  Import took 0.013201 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.811 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3362.
+Total: 3.596000 ms (FindLiveObjects: 0.453800 ms CreateObjectMapping: 0.332900 ms MarkObjects: 2.786900 ms  DeleteObjects: 0.020900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.133599 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d682b904fa4ea8c9e43a552bb72ca7f') in 0.008164 seconds
+  Import took 0.013373 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.283 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3365.
+Total: 3.405000 ms (FindLiveObjects: 0.499500 ms CreateObjectMapping: 0.206700 ms MarkObjects: 2.669000 ms  DeleteObjects: 0.028200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.242102 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cf02a00096e86eb0ea499bc0d63728') in 0.011507 seconds
+  Import took 0.020649 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006275 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3368.
+Total: 3.235900 ms (FindLiveObjects: 0.505700 ms CreateObjectMapping: 0.211600 ms MarkObjects: 2.495500 ms  DeleteObjects: 0.021100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.458863 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e011c2f911018860411ca1a605a1838') in 0.009085 seconds
+  Import took 0.015013 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004398 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.687 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3371.
+Total: 3.341600 ms (FindLiveObjects: 0.396500 ms CreateObjectMapping: 0.277900 ms MarkObjects: 2.645100 ms  DeleteObjects: 0.020400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.045893 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2967bc20fa3751535ac6e0cd2b98062') in 0.009497 seconds
+  Import took 0.015602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.222771 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/EndGame.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2967bc20fa3751535ac6e0cd2b98062') in 0.006189 seconds
+  Import took 0.015730 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.635 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3374.
+Total: 3.973000 ms (FindLiveObjects: 0.471700 ms CreateObjectMapping: 0.251900 ms MarkObjects: 3.216900 ms  DeleteObjects: 0.029900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003692 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.399 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3377.
+Total: 3.678600 ms (FindLiveObjects: 0.436700 ms CreateObjectMapping: 0.220200 ms MarkObjects: 2.948500 ms  DeleteObjects: 0.070900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005092 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.798 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3380.
+Total: 3.695100 ms (FindLiveObjects: 0.510200 ms CreateObjectMapping: 0.260000 ms MarkObjects: 2.891900 ms  DeleteObjects: 0.031100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004779 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.630 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3383.
+Total: 5.523300 ms (FindLiveObjects: 0.794400 ms CreateObjectMapping: 0.357200 ms MarkObjects: 4.339900 ms  DeleteObjects: 0.029200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005896 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.189 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3386.
+Total: 4.941100 ms (FindLiveObjects: 0.432800 ms CreateObjectMapping: 0.206300 ms MarkObjects: 4.277000 ms  DeleteObjects: 0.022800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.225 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3389.
+Total: 3.291000 ms (FindLiveObjects: 0.448300 ms CreateObjectMapping: 0.196100 ms MarkObjects: 2.623500 ms  DeleteObjects: 0.020900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 808.238357 seconds.
+  path: Assets/VR Framework/FairyDustVR/Animators/EndGame.anim
+  artifactKey: Guid(d953f625271b64e42b9651b73699e75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Animators/EndGame.anim using Guid(d953f625271b64e42b9651b73699e75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83666f1386352caf42557acaa4c8e11') in 0.023551 seconds
+  Import took 0.032506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.857380 seconds.
+  path: Assets/VR Framework/FairyDustVR/Animators/Swirl Particle System.controller
+  artifactKey: Guid(9b07215f7d67b42429554dbca99204e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Animators/Swirl Particle System.controller using Guid(9b07215f7d67b42429554dbca99204e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5722971a49cf9133119eb89307bbde9b') in 0.009497 seconds
+  Import took 0.018478 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.431 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3392.
+Total: 3.892200 ms (FindLiveObjects: 0.552800 ms CreateObjectMapping: 0.250800 ms MarkObjects: 3.042300 ms  DeleteObjects: 0.044400 ms)
 
