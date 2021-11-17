@@ -15,10 +15,10 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.001
-  m_LinearFogStart: 60
+  m_FogColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
+  m_FogMode: 1
+  m_FogDensity: 0.01
+  m_LinearFogStart: 1
   m_LinearFogEnd: 100
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 1541138294}
   m_IndirectSpecularColor: {r: 0.17296635, g: 0.2161648, b: 0.29814285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -5817,6 +5817,49 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!1 &1718116326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1718116328}
+  - component: {fileID: 1718116327}
+  m_Layer: 0
+  m_Name: FPS_Counter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1718116327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718116326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8793c0b36c97eb45b6c40c19a246b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1718116328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718116326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1836475432
 GameObject:
   m_ObjectHideFlags: 0
@@ -5835,7 +5878,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1836475433
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10828,6 +10871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: '[Camera Rig]'
       objectReference: {fileID: 0}
+    - target: {fileID: 128016940669650809, guid: e0efdb1ae1bbc3348bb2b45e748bf06a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 626658358926405416, guid: e0efdb1ae1bbc3348bb2b45e748bf06a, type: 3}
       propertyPath: pointerAction.actionPath
       value: /actions/interaction_framework/in/LaserPointer
@@ -11167,7 +11214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 57912874814140882, guid: aba02c47536c1f94e8c7a16d0eb1dc7c, type: 3}
       propertyPath: maxMoonIntensity
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 57912874814140883, guid: aba02c47536c1f94e8c7a16d0eb1dc7c, type: 3}
       propertyPath: m_RootOrder
@@ -11265,7 +11312,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7472043592096661541
 Transform:
   m_ObjectHideFlags: 0
@@ -11274,8 +11321,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7472043592096661538}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 430, y: 5, z: 460}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalPosition: {x: 220, y: 1, z: 235}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7472043592266877858}
   - {fileID: 1421427007}
