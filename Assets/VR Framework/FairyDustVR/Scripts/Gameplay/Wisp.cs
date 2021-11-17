@@ -23,9 +23,11 @@ namespace FDVR
 
         void Update()
         {
+            //If the wisp sees you, swirl on
             if (Vector3.Distance(transform.position, target.transform.position) < playerDist)
             {
                 wispAnimator.SetBool("IsIdle", false);
+                EndGameManager.instance.hasEnded = true;
             }
         }
 

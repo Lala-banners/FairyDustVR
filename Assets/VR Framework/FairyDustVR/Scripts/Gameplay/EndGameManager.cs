@@ -6,7 +6,7 @@ public class EndGameManager : MonoBehaviour
 {
     private ParticleSystem swirlPS;
     private Animator swirlAnim;
-    [SerializeField] private bool hasEnded;
+    public bool hasEnded;
     private AudioSource bgm;
     public float musicDuration;
 
@@ -36,10 +36,10 @@ public class EndGameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        /*if (Input.GetKeyDown(KeyCode.Space))
         {
             hasEnded = true;
-        }
+        }*/
         
         switch (hasEnded)
         {

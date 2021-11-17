@@ -2998,3 +2998,43 @@ System memory in use after: 149.4 MB.
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3486.
 Total: 3.848400 ms (FindLiveObjects: 0.695200 ms CreateObjectMapping: 0.203700 ms MarkObjects: 2.925000 ms  DeleteObjects: 0.022400 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 337.270330 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/Gameplay/Wisp.cs
+  artifactKey: Guid(a8b7e318fbf859d4e80dbc3661ee7dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/Gameplay/Wisp.cs using Guid(a8b7e318fbf859d4e80dbc3661ee7dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abfd498f4848c6006bf5b221aaaab2d') in 0.017944 seconds
+  Import took 0.025169 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.574 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2609 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.0 MB.
+System memory in use after: 149.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3489.
+Total: 3.893100 ms (FindLiveObjects: 0.562100 ms CreateObjectMapping: 0.228200 ms MarkObjects: 3.077500 ms  DeleteObjects: 0.022900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.750155 seconds.
+  path: Assets/VR Framework/FairyDustVR/Scripts/Gameplay/EndGameManager.cs
+  artifactKey: Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Framework/FairyDustVR/Scripts/Gameplay/EndGameManager.cs using Guid(b93fa3da86f2c8d4ab0d3aa9f32565ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dd6b3f9ab4a7be47f83185725a3b55') in 0.014783 seconds
+  Import took 0.022704 seconds .
+
