@@ -5,9 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void StartGame()
     {
-        //SceneManager.LoadScene("FairyCircle");
+        SceneManager.LoadScene("FairyCircle");
     }
 }
