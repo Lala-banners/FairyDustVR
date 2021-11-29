@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &58191332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 58191333}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &58191333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58191332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8238895559530900858}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &128016940669650809
 GameObject:
   m_ObjectHideFlags: 0
@@ -16,6 +46,8 @@ GameObject:
   - component: {fileID: 8675651783322621390}
   - component: {fileID: 8675651783322621391}
   - component: {fileID: 1489685081}
+  - component: {fileID: 2012884435}
+  - component: {fileID: 2012884434}
   m_Layer: 0
   m_Name: '[Camera Rig]'
   m_TagString: Untagged
@@ -37,6 +69,7 @@ Transform:
   - {fileID: 78354766470380933}
   - {fileID: 1318885674068531287}
   - {fileID: 8256705184438525820}
+  - {fileID: 58191333}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -171,6 +204,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.1
+  jumpForce: 5
+--- !u!54 &2012884435
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128016940669650809}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!136 &2012884434
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128016940669650809}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &3502224486838446920
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,8 +402,28 @@ PrefabInstance:
       value: /actions/interaction_framework/in/InteractUI
       objectReference: {fileID: 0}
     - target: {fileID: 1682409416164084669, guid: 9981bd4893bd4d94094f782ec43cb88f, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682409416164084669, guid: 9981bd4893bd4d94094f782ec43cb88f, type: 3}
       propertyPath: onTouchpadPosChanged.m_PersistentCalls.m_Calls.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682409416164084669, guid: 9981bd4893bd4d94094f782ec43cb88f, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682409416164084669, guid: 9981bd4893bd4d94094f782ec43cb88f, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1489685081}
+    - target: {fileID: 1682409416164084669, guid: 9981bd4893bd4d94094f782ec43cb88f, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682409416164084669, guid: 9981bd4893bd4d94094f782ec43cb88f, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Jump
       objectReference: {fileID: 0}
     - target: {fileID: 1682409416164084669, guid: 9981bd4893bd4d94094f782ec43cb88f, type: 3}
       propertyPath: onTouchpadPosChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -358,8 +442,16 @@ PrefabInstance:
       value: Move
       objectReference: {fileID: 0}
     - target: {fileID: 1682409416164084669, guid: 9981bd4893bd4d94094f782ec43cb88f, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: VRFramework.VrMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682409416164084669, guid: 9981bd4893bd4d94094f782ec43cb88f, type: 3}
       propertyPath: onTouchpadPosChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: VRFramework.VrMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682409416164084669, guid: 9981bd4893bd4d94094f782ec43cb88f, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1682409416164084669, guid: 9981bd4893bd4d94094f782ec43cb88f, type: 3}
       propertyPath: onTouchpadPosChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -571,8 +663,28 @@ PrefabInstance:
       value: /actions/interaction_framework/in/InteractUI
       objectReference: {fileID: 0}
     - target: {fileID: 8238015227595868108, guid: cd087a416b51bf34abeeab3ddc09bc22, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238015227595868108, guid: cd087a416b51bf34abeeab3ddc09bc22, type: 3}
       propertyPath: onTouchpadPosChanged.m_PersistentCalls.m_Calls.Array.size
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238015227595868108, guid: cd087a416b51bf34abeeab3ddc09bc22, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238015227595868108, guid: cd087a416b51bf34abeeab3ddc09bc22, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1489685081}
+    - target: {fileID: 8238015227595868108, guid: cd087a416b51bf34abeeab3ddc09bc22, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238015227595868108, guid: cd087a416b51bf34abeeab3ddc09bc22, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Jump
       objectReference: {fileID: 0}
     - target: {fileID: 8238015227595868108, guid: cd087a416b51bf34abeeab3ddc09bc22, type: 3}
       propertyPath: onTouchpadPosChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -591,8 +703,16 @@ PrefabInstance:
       value: Move
       objectReference: {fileID: 0}
     - target: {fileID: 8238015227595868108, guid: cd087a416b51bf34abeeab3ddc09bc22, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: VRFramework.VrMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238015227595868108, guid: cd087a416b51bf34abeeab3ddc09bc22, type: 3}
       propertyPath: onTouchpadPosChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: VRFramework.VrMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238015227595868108, guid: cd087a416b51bf34abeeab3ddc09bc22, type: 3}
+      propertyPath: onUsePressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8238015227595868108, guid: cd087a416b51bf34abeeab3ddc09bc22, type: 3}
       propertyPath: onTouchpadPosChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
