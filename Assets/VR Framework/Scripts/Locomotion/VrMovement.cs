@@ -14,6 +14,18 @@ namespace VRFramework
         public float speed;
         public float jumpForce;
         Rigidbody rb;
+        
+        /*public float charHeight;
+        public float heightPadding;
+        public LayerMask ground;
+        public float maxGroundAngle = 120;
+        public bool debug;
+
+        private float groundAngle;
+
+        private Vector3 forward;
+        private RaycastHit hitInfo;
+        private bool isGrounded;*/
 
         private void Start()
         {
