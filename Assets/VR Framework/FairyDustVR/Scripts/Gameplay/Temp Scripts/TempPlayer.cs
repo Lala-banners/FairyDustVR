@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FakePlayer : MonoBehaviour
+public class TempPlayer : MonoBehaviour
 {
     private int colliderIndex;
     [SerializeField] private GameObject[] flames;
@@ -15,8 +15,6 @@ public class FakePlayer : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //print("Colliding with triggers");
-
         if (other.gameObject.name == "Colliders")
         {
             flames[0].gameObject.SetActive(true);
@@ -30,11 +28,6 @@ public class FakePlayer : MonoBehaviour
         if (other.gameObject.name == "Colliders (2)")
         {
             flames[2].gameObject.SetActive(true);
-        }
-        
-        if (other.gameObject.name == "Night Change Point")
-        {
-            print("Crossed the fairies, change to night time, change trees");
         }
     }
 }

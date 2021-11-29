@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -8,8 +6,7 @@ namespace VRFramework.Input
     //Custom Unity Event that we can use for when an input action is activated 
     [System.Serializable]
     public class VrInputEvent : UnityEvent<VrInputActionData>{ }
-    
-    
+
     [System.Serializable]
     public class VrInputActionData
     {

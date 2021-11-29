@@ -1,10 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine;
 using Valve.VR;
-using UnityEngine.Events;
-using Vector2 = UnityEngine.Vector2;
 using VRFramework.UI;
 
 namespace VRFramework.Input
@@ -16,7 +11,6 @@ namespace VRFramework.Input
         public bool IsGrabPressed { get; private set; } = false;
         public bool IsUsePressed { get; private set; } = false;
         public bool IsPointerPressed { get; private set; } = false;
-        
         public bool IsInteractUIDown { get { return interactUIAction.GetStateDown(controller.Source); } }
         public bool IsInteractUIUp { get { return interactUIAction.GetStateUp(controller.Source); } }
         public bool IsTeleportPressed { get; private set; } = false;
@@ -60,8 +54,6 @@ namespace VRFramework.Input
 
         private VrController controller;
 
-        //TODO: @Lara Condense code/make neater (lambda & constructor make smaller)
-        
         #region Action Functions
         
         //GRAB
