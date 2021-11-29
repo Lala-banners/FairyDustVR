@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Sprites;
 using UnityEngine;
 
 namespace FDVR
@@ -11,22 +12,19 @@ namespace FDVR
         //Assign a GameObject in the Inspector to rotate around
         private GameObject target;
 
-        [SerializeField] private float playerDist;
-
-        private Animator wispAnimator;
+        public float playerDist;
 
         private void Start()
         {
-            wispAnimator = GetComponent<Animator>();
             target = GameObject.FindWithTag("Player");
         }
 
         void Update()
         {
-            //If the wisp sees you, swirl on
+            //If the wisp sees you, swirl time
             if (Vector3.Distance(transform.position, target.transform.position) < playerDist)
             {
-                wispAnimator.SetBool("IsIdle", false);
+                StartCoroutine(Spin());
                 EndGameManager.instance.hasEnded = true;
             }
         }
@@ -35,6 +33,13 @@ namespace FDVR
         {
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, playerDist);
+        }
+
+        private IEnumerator Spin()
+        {
+            // Spin the object around the target at 20 degrees/second.
+            transform.RotateAround(target.transform.position, Vector3.up, 20 * Time.deltaTime);
+            yield return new WaitForSeconds(5);
         }
     }
 }

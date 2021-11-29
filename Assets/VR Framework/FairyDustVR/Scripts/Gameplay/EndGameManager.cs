@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEditor;
 
 public class EndGameManager : MonoBehaviour
 {
@@ -36,11 +35,6 @@ public class EndGameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (Input.GetKeyDown(KeyCode.Space))
-        {
-            hasEnded = true;
-        }*/
-        
         switch (hasEnded)
         {
             //If hasEnded == true
@@ -89,10 +83,6 @@ public class EndGameManager : MonoBehaviour
 
     private void QuitGame()
     {
-        Debug.Log("Quitting Game");
-#if UNITY_EDITOR
-        EditorApplication.ExitPlaymode();
-#endif
         Application.Quit();
     }
 }
