@@ -13,7 +13,6 @@ namespace VRFramework
     {
         public float speed;
         public float jumpForce;
-        //Vector3 moveDirection = Vector3.zero;
         Rigidbody rb;
 
         private void Start()
@@ -29,12 +28,6 @@ namespace VRFramework
         public void Move()
         {
             transform.Translate(Vector3.forward * speed);
-            
-            /*Vector3 forward = transform.TransformDirection(Vector3.forward);
-            Vector3 right = transform.TransformDirection(Vector3.right);
-            float curSpeedX = UnityEngine.Input.GetAxis("Vertical");
-            float curSpeedY = UnityEngine.Input.GetAxis("Horizontal");
-            moveDirection = (forward * curSpeedX) + (right * curSpeedY);*/
         }
     }
 }
