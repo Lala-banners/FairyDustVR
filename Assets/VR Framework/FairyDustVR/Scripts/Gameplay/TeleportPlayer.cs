@@ -10,4 +10,6 @@ public class TeleportPlayer : MonoBehaviour
         player.transform.position = new Vector3(200f, 1f, 250f);
         player.transform.rotation = teleport.transform.rotation;
     }
+    
+    
 }

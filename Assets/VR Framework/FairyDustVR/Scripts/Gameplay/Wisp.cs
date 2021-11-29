@@ -18,7 +18,7 @@ namespace FDVR
         private void Start()
         {
             wispAnimator = GetComponent<Animator>();
-            target = GameObject.FindGameObjectWithTag("Player");
+            target = GameObject.FindWithTag("Player");
         }
 
         void Update()
