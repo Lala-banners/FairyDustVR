@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,21 +10,20 @@ namespace VRFramework
     public class VrMovement : MonoBehaviour
     {
         public float speed;
-        
-        // Start is called before the first frame update
-        void Start()
-        {
 
-        }
-
-        void Update()
+        private void Update()
         {
-           
+            if (UnityEngine.Input.GetButton("Jump"))
+            {
+                
+            }
         }
 
         public void Move()
         {
             transform.Translate(Vector3.forward * speed);
         }
+        
+        
     }
 }
