@@ -138,6 +138,8 @@ namespace VRFramework.Input
             IsPointerPressed = pointerAction.state;
             IsTeleportPressed = teleportAction.state;
             
+            TouchpadAxis = touchpadPosAction.axis;
+            
             //Handle the state of if the controller can interact with the UI or not
             if (VrInputModule.instance != null)
             {

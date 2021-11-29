@@ -35,8 +35,6 @@ namespace VRFramework.Locomotion
             }
         }
         
-        
-
         protected virtual bool ValidTeleportLocation(Vector3 _position)
         {
             if (!Enabled)

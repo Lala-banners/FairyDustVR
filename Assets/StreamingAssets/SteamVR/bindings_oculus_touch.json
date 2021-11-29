@@ -39,7 +39,20 @@
                "path" : "/user/hand/right/pose/raw"
             }
          ],
-         "skeleton" : [],
+         "skeleton" : [
+            {
+               "output" : "/actions/interaction_framework/in/rightskeleton",
+               "path" : "/user/hand/left/input/skeleton/right"
+            },
+            {
+               "output" : "/actions/interaction_framework/in/rightskeleton",
+               "path" : "/user/hand/right/input/skeleton/right"
+            },
+            {
+               "output" : "/actions/interaction_framework/in/leftskeleton",
+               "path" : "/user/hand/left/input/skeleton/left"
+            }
+         ],
          "sources" : [
             {
                "inputs" : {

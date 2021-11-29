@@ -33,6 +33,10 @@ namespace Valve.VR
         
         private static SteamVR_Action_Boolean p_interaction_framework_LaserPointer;
         
+        private static SteamVR_Action_Skeleton p_interaction_framework_LeftSkeleton;
+        
+        private static SteamVR_Action_Skeleton p_interaction_framework_RightSkeleton;
+        
         private static SteamVR_Action_Vibration p_interaction_framework_Haptic;
         
         public static SteamVR_Action_Boolean interaction_framework_Teleport
@@ -99,6 +103,22 @@ namespace Valve.VR
             }
         }
         
+        public static SteamVR_Action_Skeleton interaction_framework_LeftSkeleton
+        {
+            get
+            {
+                return SteamVR_Actions.p_interaction_framework_LeftSkeleton.GetCopy<SteamVR_Action_Skeleton>();
+            }
+        }
+        
+        public static SteamVR_Action_Skeleton interaction_framework_RightSkeleton
+        {
+            get
+            {
+                return SteamVR_Actions.p_interaction_framework_RightSkeleton.GetCopy<SteamVR_Action_Skeleton>();
+            }
+        }
+        
         public static SteamVR_Action_Vibration interaction_framework_Haptic
         {
             get
@@ -118,6 +138,8 @@ namespace Valve.VR
                     SteamVR_Actions.interaction_framework_TouchpadPos,
                     SteamVR_Actions.interaction_framework_Squeeze,
                     SteamVR_Actions.interaction_framework_LaserPointer,
+                    SteamVR_Actions.interaction_framework_LeftSkeleton,
+                    SteamVR_Actions.interaction_framework_RightSkeleton,
                     SteamVR_Actions.interaction_framework_Haptic};
             Valve.VR.SteamVR_Input.actionsIn = new Valve.VR.ISteamVR_Action_In[] {
                     SteamVR_Actions.interaction_framework_Teleport,
@@ -127,7 +149,9 @@ namespace Valve.VR
                     SteamVR_Actions.interaction_framework_Use,
                     SteamVR_Actions.interaction_framework_TouchpadPos,
                     SteamVR_Actions.interaction_framework_Squeeze,
-                    SteamVR_Actions.interaction_framework_LaserPointer};
+                    SteamVR_Actions.interaction_framework_LaserPointer,
+                    SteamVR_Actions.interaction_framework_LeftSkeleton,
+                    SteamVR_Actions.interaction_framework_RightSkeleton};
             Valve.VR.SteamVR_Input.actionsOut = new Valve.VR.ISteamVR_Action_Out[] {
                     SteamVR_Actions.interaction_framework_Haptic};
             Valve.VR.SteamVR_Input.actionsVibration = new Valve.VR.SteamVR_Action_Vibration[] {
@@ -145,7 +169,9 @@ namespace Valve.VR
             Valve.VR.SteamVR_Input.actionsVector2 = new Valve.VR.SteamVR_Action_Vector2[] {
                     SteamVR_Actions.interaction_framework_TouchpadPos};
             Valve.VR.SteamVR_Input.actionsVector3 = new Valve.VR.SteamVR_Action_Vector3[0];
-            Valve.VR.SteamVR_Input.actionsSkeleton = new Valve.VR.SteamVR_Action_Skeleton[0];
+            Valve.VR.SteamVR_Input.actionsSkeleton = new Valve.VR.SteamVR_Action_Skeleton[] {
+                    SteamVR_Actions.interaction_framework_LeftSkeleton,
+                    SteamVR_Actions.interaction_framework_RightSkeleton};
             Valve.VR.SteamVR_Input.actionsNonPoseNonSkeletonIn = new Valve.VR.ISteamVR_Action_In[] {
                     SteamVR_Actions.interaction_framework_Teleport,
                     SteamVR_Actions.interaction_framework_InteractUI,
@@ -166,6 +192,8 @@ namespace Valve.VR
             SteamVR_Actions.p_interaction_framework_TouchpadPos = ((SteamVR_Action_Vector2)(SteamVR_Action.Create<SteamVR_Action_Vector2>("/actions/interaction_framework/in/TouchpadPos")));
             SteamVR_Actions.p_interaction_framework_Squeeze = ((SteamVR_Action_Single)(SteamVR_Action.Create<SteamVR_Action_Single>("/actions/interaction_framework/in/Squeeze")));
             SteamVR_Actions.p_interaction_framework_LaserPointer = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/interaction_framework/in/LaserPointer")));
+            SteamVR_Actions.p_interaction_framework_LeftSkeleton = ((SteamVR_Action_Skeleton)(SteamVR_Action.Create<SteamVR_Action_Skeleton>("/actions/interaction_framework/in/LeftSkeleton")));
+            SteamVR_Actions.p_interaction_framework_RightSkeleton = ((SteamVR_Action_Skeleton)(SteamVR_Action.Create<SteamVR_Action_Skeleton>("/actions/interaction_framework/in/RightSkeleton")));
             SteamVR_Actions.p_interaction_framework_Haptic = ((SteamVR_Action_Vibration)(SteamVR_Action.Create<SteamVR_Action_Vibration>("/actions/interaction_framework/out/Haptic")));
         }
     }

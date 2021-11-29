@@ -57,7 +57,8 @@ namespace VRFramework
             return null;
         }
 
-        private void Awake() {
+        private void Awake() 
+        {
             if (instance == null)
             {
                 instance = this;
@@ -82,10 +83,13 @@ namespace VRFramework
         }
 
         // Update is called once per frame
-        void Update() {
+        void Update() 
+        {
             //Process the update loop for controllers
-        left.Process();
-        right.Process();
+            left.Process();
+            right.Process();
+            
+            
         }
     }
 }

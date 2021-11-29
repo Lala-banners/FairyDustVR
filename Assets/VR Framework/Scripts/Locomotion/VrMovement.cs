@@ -4,16 +4,26 @@ using UnityEngine;
 using Valve.VR;
 using VRFramework.Input;
 
-public class VrMovement : MonoBehaviour
+namespace VRFramework
 {
-    // Start is called before the first frame update
-    void Start()
+    public class VrMovement : MonoBehaviour
     {
+        public float speed;
         
-    }
+        // Start is called before the first frame update
+        void Start()
+        {
 
-    void FixedUpdate()
-    {
-        
+        }
+
+        void Update()
+        {
+           
+        }
+
+        public void Move()
+        {
+            transform.Translate(Vector3.forward * speed);
+        }
     }
 }

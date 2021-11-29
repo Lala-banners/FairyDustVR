@@ -35,6 +35,18 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/interaction_framework/in/LeftSkeleton",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/left",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/interaction_framework/in/RightSkeleton",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/right",
+      "requirement": "mandatory"
+    },
+    {
       "name": "/actions/interaction_framework/out/Haptic",
       "type": "vibration"
     }
@@ -110,7 +122,9 @@
       "/actions/interaction_framework/in/TouchpadPos": "Touchpad/Joystick Position",
       "/actions/interaction_framework/in/Squeeze": "Trigger Squeeze",
       "/actions/interaction_framework/out/Haptic": "Haptics",
-      "/actions/interaction_framework/in/LaserPointer": "LaserPointer"
+      "/actions/interaction_framework/in/LaserPointer": "LaserPointer",
+      "/actions/interaction_framework/in/LeftSkeleton": "Skeleton (Left)",
+      "/actions/interaction_framework/in/RightSkeleton": "Skeleton (Right)"
     }
   ]
 }
